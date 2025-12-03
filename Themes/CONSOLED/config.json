@@ -1,0 +1,62 @@
+{
+    "showBottomBar": true,
+    "name": "CONSOLED V2",
+    "author": "rdwilliamson",
+    "description": "spruce theme for Miyoo Flip",
+    "batteryPercentage": {
+        "color": "#a5a5a5",
+        "font": "Roboto-Regular.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#a5a5a5"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#a5a5a5"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#a5a5a5"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#D65D0E"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#7C6F64",
+        "selectedcolor": "#e0e0e0"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#a5a5a5",
+        "selectedcolor": "#e0e0e0"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": false,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "gameSelectRowCount": 1,
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "FULLSCREEN_GRID",
+    "gameSystemSelectColCount": 1,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "GRID",
+    "mainMenuColCount": 1,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false
+}
