@@ -1,14 +1,12 @@
-Please help us by contributing your A30 themes here!
+Please help us by contributing your PyUI themes here!
 
 
 [Check out our Theme Design Guide for more information on making your own theme](https://github.com/spruceUI/spruceOS/wiki/09.-Theme-Design-guide)
 
-**Note: Themes will be removed if we receive a takedown request from copyright holders or the authors from themes from other platforms that do not want their assets to be reused.**
+Themes here are in .7z format; you can place them into your `/Themes` folder and spruce will automatically unzip them on next boot.
 
+**Note: The spruce team takes artists' rights very seriously. Themes will be removed if we receive a takedown request from copyright holders or the authors from themes from other platforms that do not want their assets to be reused.**
 **Takedown requests may be emailed to: thespruceosteam@gmail.com**
-
-Themes here are in .7z format, you can place them into your `/Themes` folder and spruce will automatically unzip them on next boot.
-
 
 ## Theme Gallery
 
@@ -214,5 +212,3 @@ Themes here are in .7z format, you can place them into your `/Themes` folder and
         </td>
 </tr>
 </table>
-
-Themes here are in .7z format, you can place them into your Themes folder and spruce will automatically unzip them.
