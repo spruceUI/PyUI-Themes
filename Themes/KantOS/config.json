@@ -1,0 +1,48 @@
+{
+    "showBottomBar": true,
+    "name": "KantOS",
+    "author": "Chris Cromer",
+    "description": "A KantOS port heavily tweaked for spruce",
+    "batteryPercentage": {
+        "visible": false,
+        "size": 18,
+        "color": "#505050",
+        "textAlign": "left",
+        "font": "/mnt/SDCARD/miyoo/app/Exo-2-Bold-Italic_Universal.ttf"
+    },
+    "hideLabels": {
+        "hints": true,
+        "icons": true
+    },
+    "title": {
+        "font": "PressStart2P.ttf",
+        "size": 16,
+        "color": "#686868"
+    },
+    "hint": {
+        "font": "/mnt/SDCARD/miyoo/app/AdobeBlank.ttc",
+        "size": 20,
+        "color": "#304b07"
+    },
+    "currentpage": {
+        "font": "/mnt/SDCARD/miyoo/app/AdobeBlank.ttc",
+        "color": "#304b07"
+    },
+    "total": {
+        "font": "/mnt/SDCARD/miyoo/app/AdobeBlank.ttc",
+        "color": "#304b07"
+    },
+    "grid": {
+        "font": "/mnt/SDCARD/miyoo/app/AdobeBlank.ttc",
+        "grid1x4": 20,
+        "grid3x4": 18,
+        "color": "#686868",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "PressStart2P.ttf",
+        "size": 16,
+        "color": "#304b07;"
+    },
+    "recentsEnabled": false
+}

@@ -1,0 +1,44 @@
+{
+    "showBottomBar": true,
+    "name": "PIXEL SPRUCE",
+    "author": "369px",
+    "description": "Mix spruce with a little bit of pixels and here's what you get ;)",
+    "batteryPercentage": {
+        "color": "#EBDBB2",
+        "font": "mai10.ttf",
+        "size": 15
+    },
+    "title": {
+        "font": "mai10.ttf",
+        "size": 24,
+        "color": "#EBDBB2"
+    },
+    "hint": {
+        "font": "mai10.ttf",
+        "size": 20,
+        "color": "#EBDBB2"
+    },
+    "currentpage": {
+        "font": "mai10.ttf",
+        "size": 18,
+        "color": "#EBDBB2"
+    },
+    "total": {
+        "font": "mai10.ttf",
+        "size": 16,
+        "color": "#EBDBB2"
+    },
+    "grid": {
+        "font": "P8-upper369.ttf",
+        "color": "#282828",
+        "selectedcolor": "#FBF1C7"
+    },
+    "list": {
+        "font": "mai10.ttf",
+        "size": 16,
+        "color": "#FBF1C7",
+        "selectedcolor": "#FBF1C7"
+    },
+    "topBarInitialXOffset": 65,
+    "recentsEnabled": false
+}

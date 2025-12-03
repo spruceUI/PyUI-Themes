@@ -1,0 +1,68 @@
+name: Package All Themes (Manual)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  package-themes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install 7-Zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+          
+      - name: Prepare PackedThemes Directory
+        run: |
+          # Create PackedThemes directory if it doesn't exist
+          mkdir -p PackedThemes
+          # Remove all existing files in PackedThemes (including git-tracked files)
+          git rm -rf PackedThemes/*.7z || true
+          # Ensure the directory exists after git rm
+          mkdir -p PackedThemes
+          
+      - name: Package All Themes
+        run: |
+          # Find all theme folders in the Themes directory
+          cd Themes
+          FOLDERS=$(find . -maxdepth 1 -type d ! -name ".*" ! -path "." | sed 's|^./||')
+          
+          echo "Folders to process:"
+          printf '%s\n' "$FOLDERS"
+          
+          # Store the absolute path to the workspace
+          WORKSPACE="$PWD/.."
+          
+          # Process each theme folder
+          printf '%s\n' "$FOLDERS" | while IFS= read -r folder; do
+            if [ -d "$folder" ]; then
+              echo "Packaging $folder..."
+              # Remove existing archive if it exists
+              rm -f "${WORKSPACE}/PackedThemes/${folder}.7z"
+              
+              # Create temporary directory structure
+              cd "$WORKSPACE"
+              mkdir -p "temp/mnt/SDCARD/Themes"
+              cp -r "Themes/$folder" "temp/mnt/SDCARD/Themes/"
+              
+              # Create fresh 7z archive from workspace root
+              7z a -r "${WORKSPACE}/PackedThemes/${folder}.7z" "${WORKSPACE}/temp/mnt"
+              
+              # Cleanup
+              rm -rf temp
+              cd Themes
+            fi
+          done
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add PackedThemes/*.7z
+          git commit -m "Update all theme packages" || echo "No changes to commit"
+          git push

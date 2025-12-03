@@ -1,0 +1,178 @@
+name: Update Theme Gallery
+
+concurrency: 
+  group: theme-gallery
+  cancel-in-progress: false
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Package Theme Previews"]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for all branches and tags
+      
+      - name: Check for new themes
+        id: check-themes
+        run: |
+          # Get list of all current theme directories, sorted
+          current_themes=$(find Themes -maxdepth 1 -mindepth 1 -type d | sed 's|Themes/||' | sort)
+          echo "::debug::Current themes in directory:"
+          echo "::debug::$current_themes"
+          
+          # Get list of themes from README, sorted
+          readme_themes=$(grep -o 'PackedThemes/[^/]*\.7z' README.md | 
+            sed 's|PackedThemes/||' | 
+            sed 's|\.7z$||' | 
+            sed 's/%20/ /g' | 
+            sort)
+          echo "::debug::Themes found in README:"
+          echo "::debug::$readme_themes"
+          
+          # Create temporary files for comparison
+          echo "$current_themes" > current_themes.txt
+          echo "$readme_themes" > readme_themes.txt
+          
+          # Compare the sorted lists and store differences
+          if ! diff current_themes.txt readme_themes.txt > theme_diff.txt; then
+            echo "::notice::Differences detected between directory and README:"
+            cat theme_diff.txt
+            echo "theme_changed=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::No differences detected"
+            echo "theme_changed=0" >> "$GITHUB_OUTPUT"
+          fi
+          
+          # Clean up temp files
+          rm current_themes.txt readme_themes.txt theme_diff.txt
+
+      - name: Generate Theme Gallery
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_run' || steps.check-themes.outputs.theme_changed == '1'
+        id: generate-gallery
+        run: |
+          # Create backup of current README
+          cp README.md README.md.bak
+          
+          # Create temporary files
+          TEMP_FILE=$(mktemp)
+          GALLERY_CONTENT=$(mktemp)
+          
+          # Generate the new gallery content
+          echo -e "## Theme Gallery\n" > "$GALLERY_CONTENT"
+          
+          # Initialize arrays for the grid
+          declare -a themes=()
+          
+          # Process each theme folder
+          for theme_dir in Themes/*/; do
+            if [ -d "$theme_dir" ] && [ "$theme_dir" != "PackedThemes/" ]; then
+              theme_name="${theme_dir#Themes/}"
+              theme_name="${theme_name%/}"
+              preview_path_gif="$theme_dir/preview.gif"
+              preview_path_png="$theme_dir/preview.png"
+              packed_path="PackedThemes/$theme_name.7z"
+              config_path="$theme_dir/config.json"
+              
+              if [ -f "$packed_path" ] && [ -f "$config_path" ] && { [ -f "$preview_path_gif" ] || [ -f "$preview_path_png" ]; }; then
+                # Extract author and description from config.json
+                author=$(jq -r '.author' "$config_path")
+                description=$(jq -r '.description' "$config_path")
+                
+                # Determine which preview file to use
+                if [ -f "$preview_path_gif" ]; then
+                  preview_path="$preview_path_gif"
+                else
+                  preview_path="$preview_path_png"
+                fi
+                
+                # Create properly encoded URLs
+                preview_path=$(echo "$preview_path" | sed 's|^Themes/||')
+                theme_name_encoded=$(echo "$theme_name" | sed -e 's/ /%20/g')
+                
+                preview_url="https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/Themes/${theme_name_encoded}/preview.png"
+                preview_img="<img title=\"${theme_name}\" width=\"200px\" src=\"${preview_url}\" />"
+                download_url="https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/PackedThemes/${theme_name_encoded}.7z"
+                
+                # Clean up URLs (remove any double slashes except after https:)
+                preview_url=$(echo "$preview_url" | sed -e 's|//|/|g' -e 's|https:/|https://|')
+                download_url=$(echo "$download_url" | sed -e 's|//|/|g' -e 's|https:/|https://|')
+                
+                # Create theme cell content
+                theme_cell="<td align=\"center\" valign=\"top\" width=\"33.33%\">
+                  <br/>
+                  <a href=\"$download_url\">
+                  $preview_img<br/>
+                  <b>$theme_name</b></a><br/>
+                  <small><i>$author</i></small><br/>
+                  <small>$description</small><br/>
+                  </td>"
+                
+                themes+=("$theme_cell")
+              fi
+            fi
+          done
+          
+          # Output in grid format
+          count=0
+          total=${#themes[@]}
+          
+          echo "<table align=\"center\">" >> "$GALLERY_CONTENT"
+          
+          while [ $count -lt $total ]; do
+            echo "<tr>" >> "$GALLERY_CONTENT"
+            
+            # Add up to 3 theme cells per row
+            for i in {0..2}; do
+              if [ $((count + i)) -lt $total ]; then
+                echo "${themes[$((count + i))]}" >> "$GALLERY_CONTENT"
+              fi
+            done
+            
+            echo "</tr>" >> "$GALLERY_CONTENT"
+            count=$((count + 3))
+          done
+          
+          echo "</table>" >> "$GALLERY_CONTENT"
+          
+          # Extract content before Theme Gallery
+          awk '/^## Theme Gallery/{exit} {print}' README.md > "$TEMP_FILE"
+          
+          # Add the new gallery content
+          cat "$GALLERY_CONTENT" >> "$TEMP_FILE"
+          
+          # Add footer content
+          echo -e "\nThemes here are in .7z format, you can place them into your Themes folder and spruce will automatically unzip them." >> "$TEMP_FILE"
+          
+          # Replace the original README
+          mv "$TEMP_FILE" README.md
+          
+          # Compare if there were actual changes
+          if ! diff README.md README.md.bak > readme_diff.txt; then
+            echo "::notice::README content has changed"
+            cat readme_diff.txt
+            echo "readme_changed=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::README content remains the same"
+            echo "readme_changed=0" >> "$GITHUB_OUTPUT"
+          fi
+          
+          rm README.md.bak readme_diff.txt
+
+      - name: Commit and push changes
+        if: (github.event_name == 'workflow_dispatch' || steps.check-themes.outputs.theme_changed == '1') && steps.generate-gallery.outputs.readme_changed == '1'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update theme gallery" || echo "No changes to commit"
+          git push || echo "No changes to push"

@@ -1,0 +1,43 @@
+{
+    "name": "Spruce theme Template",
+    "author": "Your Name",
+    "description": "Your theme's description",
+    "batteryPercentage": {
+        "color": "#FFFFFF",
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 24
+    },
+    "title": {
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 31,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 23,
+        "color": "#FFFFFF"
+    },
+    "currentpage": {
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 33,
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 32,
+        "color": "#FFFFFF"
+    },
+    "grid": {
+        "font": "Helvetica-Neue-2.ttf",
+        "grid1x4": 24,
+        "grid3x4": 24,
+        "color": "#646464",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "Helvetica-Neue-2.ttf",
+        "size": 24,
+        "color": "#FFF1E8",
+        "selectedcolor": "#FFFFFF"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "showBottomBar": true,
+    "name": "Grape",
+    "author": "Remix by XanXic",
+    "description": "Remix of Avacado by Sky_Walker to be Grape themed",
+    "batteryPercentage": {
+        "color": "#f7f5fb",
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37
+    },
+    "title": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#f7f5fb"
+    },
+    "hint": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#f7f5fb"
+    },
+    "currentpage": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#f7f5fb"
+    },
+    "total": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#f7f5fb"
+    },
+    "grid": {
+        "font": "AdobeBlank.ttc",
+        "grid1x4": 20,
+        "grid3x4": 20,
+        "color": "#f7f5fb",
+        "selectedcolor": "#f7f5fb"
+    },
+    "list": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 19,
+        "color": "#f7f5fb",
+        "selectedcolor": "#f7f5fb"
+    },
+    "recentsEnabled": false
+}

@@ -1,0 +1,62 @@
+name: Package Theme Previews
+
+concurrency: 
+  group: theme-previews
+  cancel-in-progress: false
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Auto Package Themes"]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  package-previews:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install 7-Zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+          
+      - name: Package Theme Previews
+        run: |
+          # Ensure Resources directory exists
+          mkdir -p Resources
+          
+          # Create temporary directory for previews
+          mkdir -p temp_previews
+          
+          # Copy and rename all preview files
+          find Themes -type f \( -name "preview.png" -o -name "preview.gif" \) | while IFS= read -r preview; do
+            theme_name=$(echo "$preview" | cut -d'/' -f2)
+            extension=$(echo "$preview" | grep -o '\.[^.]*$')
+            cp "$preview" "temp_previews/${theme_name}${extension}"
+          done
+          
+          # Remove existing preview archive if it exists
+          rm -f "Resources/theme_previews.7z"
+          
+          # Create fresh 7z archive
+          7z a "Resources/theme_previews.7z" "./temp_previews/*"
+          
+          # Cleanup
+          rm -rf temp_previews
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add Resources/theme_previews.7z
+          git commit -m "Update theme previews package" || echo "No changes to commit"
+          git push || echo "No changes to push"

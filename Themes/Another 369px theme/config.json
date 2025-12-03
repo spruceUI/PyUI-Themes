@@ -1,0 +1,44 @@
+{
+    "showBottomBar": true,
+    "name": "Another 369px theme",
+    "author": "369px",
+    "description": "Downgrade your display to a monochrome LCD today!",
+    "batteryPercentage": {
+        "color": "#9bbc0f",
+        "font": "mai10.ttf",
+        "size": 15
+    },
+    "title": {
+        "font": "mai10.ttf",
+        "size": 24,
+        "color": "#8bac0f"
+    },
+    "hint": {
+        "font": "mai10.ttf",
+        "size": 20,
+        "color": "#9bbc0f"
+    },
+    "currentpage": {
+        "font": "mai10.ttf",
+        "size": 18,
+        "color": "#9bbc0f"
+    },
+    "total": {
+        "font": "mai10.ttf",
+        "size": 16,
+        "color": "#8bac0f"
+    },
+    "grid": {
+        "font": "P8-upper369.ttf",
+        "color": "#0f380f",
+        "selectedcolor": "#9bbc0f"
+    },
+    "list": {
+        "font": "mai10.ttf",
+        "size": 16,
+        "color": "#9bbc0f",
+        "selectedcolor": "#FBF1C7"
+    },
+    "recentsEnabled": false,
+    "topBarInitialXOffset": 65
+}

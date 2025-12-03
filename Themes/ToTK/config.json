@@ -1,0 +1,54 @@
+{
+    "showBottomBar": true,
+    "name": "ToTK",
+    "hideIconTitle": false,
+    "batteryPercentage": {
+        "visible": false,
+        "font": "HYLIA.TTF",
+        "size": 20,
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "fixed": true,
+        "offsetX": 0,
+        "offsetY": 0
+    },
+    "author": "Original Onion theme by NaraMakesGames, adapted for spruce by CraigN aka CruxisMithos",
+    "description": "Zelda ToTK inspired theme",
+    "hideLabels": {
+        "icons": false,
+        "hints": false
+    },
+    "frame": {
+        "border-left": 0,
+        "border-right": 0
+    },
+    "title": {
+        "font": "HYLIA.TTF",
+        "size": 30,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "HYLIA.TTF",
+        "size": 24,
+        "color": "#999999"
+    },
+    "currentpage": {
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "color": "#FFA800"
+    },
+    "grid": {
+        "font": "HYLIA.TTF",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#AAAAAA",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+        "size": 26,
+        "color": "#FFFFFF"
+    },
+    "recentsEnabled": false
+}

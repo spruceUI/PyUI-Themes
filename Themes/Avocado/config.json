@@ -1,0 +1,45 @@
+{
+    "showBottomBar": true,
+    "name": "Avocado",
+    "author": "Sky_Walker AKA GamerChef",
+    "description": "Avocado inspired theme",
+    "batteryPercentage": {
+        "color": "#EBDBB2",
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37
+    },
+    "title": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#EBDBB2"
+    },
+    "hint": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#EBDBB2"
+    },
+    "currentpage": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#EBDBB2"
+    },
+    "total": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 37,
+        "color": "#EBDBB2"
+    },
+    "grid": {
+        "font": "AdobeBlank.ttc",
+        "grid1x4": 20,
+        "grid3x4": 20,
+        "color": "#7C6F64",
+        "selectedcolor": "#FBF1C7"
+    },
+    "list": {
+        "font": "PixelPanel-SemiBold.ttf",
+        "size": 19,
+        "color": "#FBF1C7",
+        "selectedcolor": "#FBF1C7"
+    },
+    "recentsEnabled": false
+}

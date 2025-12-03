@@ -1,0 +1,86 @@
+name: Auto Package Themes
+
+# Add this concurrency group
+concurrency: 
+  group: theme-packing
+  cancel-in-progress: false
+
+on:
+  push:
+    paths-ignore:
+      - '*.7z'
+      - '.*'
+      - '*.md'
+      - 'LICENSE'
+
+jobs:
+  package-themes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Install 7-Zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+          
+      - name: Package Modified Themes
+        run: |
+          # Get modified and new files from Themes directory
+          MODIFIED_FILES=$(git diff --name-only HEAD^ HEAD | grep '^Themes/' || true)
+          NEW_FILES=$(git ls-files --others --exclude-standard | grep '^Themes/' || true)
+          ALL_CHANGED_FILES="$MODIFIED_FILES"$'\n'"$NEW_FILES"
+          
+          if [ -z "$ALL_CHANGED_FILES" ]; then
+            echo "No theme files were modified or added"
+            exit 0
+          fi
+          
+          echo "Modified and new files:"
+          echo "$ALL_CHANGED_FILES"
+          
+          # Extract unique theme names from changed files
+          THEMES=$(echo "$ALL_CHANGED_FILES" | cut -d'/' -f2 | sort -u)
+          
+          echo "Debug: Listing each theme individually:"
+          printf '%s\n' "$THEMES"
+          
+          WORKSPACE="$PWD"
+          
+          # Ensure PackedThemes directory exists
+          mkdir -p PackedThemes
+          
+          # Process each modified theme
+          printf '%s\n' "$THEMES" | while IFS= read -r theme; do
+            echo "Debug: Processing theme: '$theme'"
+            if [ -d "Themes/$theme" ]; then
+              echo "Debug: Theme directory exists: 'Themes/$theme'"
+              # Remove existing archive if it exists
+              rm -f "PackedThemes/${theme}.7z"
+              
+              # Create temporary directory structure
+              mkdir -p "temp/mnt/SDCARD/Themes"
+              cp -r "Themes/$theme" "temp/mnt/SDCARD/Themes/"
+              
+              # Create fresh 7z archive in PackedThemes directory
+              7z a -r "PackedThemes/${theme}.7z" "${WORKSPACE}/temp/mnt"
+              
+              # Cleanup
+              rm -rf temp
+            else
+              echo "Debug: Theme directory does not exist: 'Themes/$theme'"
+            fi
+          done
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add and commit changes
+          git add PackedThemes/*.7z
+          git commit -m "Update theme packages" || echo "No changes to commit"
+          git push
