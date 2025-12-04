@@ -264,14 +264,22 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
+        <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/SLANTED.7z">
+        <img title="SLANTED" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/SLANTED/preview.png" /><br/>
+        <b>SLANTED</b></a><br/>
+        <small><i>rdwilliamson</i></small><br/>
+        <small>spruce theme for Miyoo Flip</small><br/>
+        </td>
+</tr>
+<tr>
+<td align="center" valign="top" width="33.33%">
+        <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/SPRUCE%20(simple).7z">
         <img title="SPRUCE (simple)" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/SPRUCE%20(simple)/preview.png" /><br/>
         <b>SPRUCE (simple)</b></a><br/>
         <small><i>tenlevels</i></small><br/>
         <small>spruce theme for a30</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/SPRUCE.7z">
@@ -280,6 +288,16 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>spruce theme for a30</small><br/>
         </td>
+<td align="center" valign="top" width="33.33%">
+        <br/>
+        <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/STRIPS.7z">
+        <img title="STRIPS" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/STRIPS/preview.png" /><br/>
+        <b>STRIPS</b></a><br/>
+        <small><i>rdwilliamson</i></small><br/>
+        <small>spruce theme for Miyoo Flip</small><br/>
+        </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/ToTK.7z">
