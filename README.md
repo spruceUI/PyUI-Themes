@@ -134,22 +134,14 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
-        <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/M%20-%20no%20labels.7z">
-        <img title="M - no labels" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/M%20-%20no%20labels/preview.png" /><br/>
-        <b>M - no labels</b></a><br/>
-        <small><i>tenlevels</i></small><br/>
-        <small>Black/White/Grey minimal theme inspired by Miyoo logo</small><br/>
-        </td>
-</tr>
-<tr>
-<td align="center" valign="top" width="33.33%">
-        <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/M.7z">
         <img title="M" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/M/preview.png" /><br/>
         <b>M</b></a><br/>
         <small><i>tenlevels</i></small><br/>
         <small>Black/White/Grey minimal theme inspired by Miyoo logo</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/MINIMAL.7z">
@@ -166,8 +158,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>MinUI inspired theme for a30</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/MinUInspired%20(green).7z">
@@ -176,6 +166,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>MinUI inspired theme for a30</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/MinUInspired%20(icons).7z">
@@ -192,8 +184,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>MinUI inspired theme for a30</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/PIXEL%20SPRUCE.7z">
@@ -202,6 +192,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>369px</i></small><br/>
         <small>Mix spruce with a little bit of pixels and here's what you get ;)</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/Pico-8.7z">
@@ -218,8 +210,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>spruce theme for Miyoo Flip</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/SPRUCE%20(simple).7z">
@@ -228,6 +218,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>spruce theme for a30</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/SPRUCE.7z">
