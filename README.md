@@ -25,8 +25,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <a href="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/PackedThemes/ART_BOOK_NEXT.7z">
         <img title="ART_BOOK_NEXT" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/ART_BOOK_NEXT/preview.png" /><br/>
         <b>ART_BOOK_NEXT</b></a><br/>
-        <small><i>Jamesinorbit, Viking</i></small><br/>
-        <small>Colorfully Details</small><br/>
+        <small><i>Anthony Caccese</i></small><br/>
+        <small>the iconic Artbook Next theme adapted to PyUI</small><br/>
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
