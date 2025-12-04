@@ -1,0 +1,75 @@
+{
+    "showBottomBar": true,
+    "name": "STRIPS",
+    "author": "rdwilliamson",
+    "description": "spruce theme for Miyoo Flip",
+    "batteryPercentage": {
+        "color": "#E7DEAF",
+        "font": "Roboto-Regular.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#E7DEAF"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#E7DEAF"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#E7DEAF"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#c0aa39"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#E7DEAF",
+        "selectedcolor": "#c0aa39"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#E7DEAF",
+        "selectedcolor": "#c0aa39"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "CAROUSEL",
+    "gameSelectRowCount": 1,
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "CAROUSEL",
+    "gameSystemSelectColCount": 6,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "CAROUSEL",
+    "mainMenuColCount": 3,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectColCount": 1,
+    "gameSelectGridResizeType": "FIT",
+    "carouselGameSelectSidesHangOff": false,
+    "collectionsEnabled": true,
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "carouselSystemSelectPrimaryImgWidth": 25,
+    "carouselSystemExternalXPad": -52,
+    "carouselSystemUsePercentageMode": false,
+    "carouselSystemFixedWidth": 220,
+    "carouselSystemSelectSidesHangOff": false,
+    "showExtrasInSystemSelectMenu": true,
+    "appsEnabled": true
+}

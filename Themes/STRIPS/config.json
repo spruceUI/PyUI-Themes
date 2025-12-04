@@ -1,0 +1,74 @@
+{
+    "showBottomBar": true,
+    "name": "STRIPS",
+    "author": "rdwilliamson",
+    "description": "spruce theme for Miyoo Flip",
+    "batteryPercentage": {
+        "color": "#E7DEAF",
+        "font": "Roboto-Regular.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#E7DEAF"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#E7DEAF"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#E7DEAF"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#D34E4E"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#E7DEAF",
+        "selectedcolor": "#D34E4E"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#E7DEAF",
+        "selectedcolor": "#D34E4E"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "gameSelectRowCount": 1,
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "CAROUSEL",
+    "gameSystemSelectColCount": 7,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "GRID",
+    "mainMenuColCount": 6,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectColCount": 1,
+    "gameSelectGridResizeType": "FIT",
+    "carouselGameSelectSidesHangOff": false,
+    "collectionsEnabled": false,
+    "systemSelectionSetTopBarText": true,
+    "carouselSystemSelectPrimaryImgWidth": 16,
+    "skipMainMenu": true,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": true,
+    "favoritesEnabled": true,
+    "appsEnabled": false,
+    "settingsEnabled": false
+}
