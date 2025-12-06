@@ -5,15 +5,12 @@
 Theme for spruce modded stock os
 
 
-## Widescreen devices set Game System Select Column Count to 8
-
-
 ### Credits
 
 **Fonts:** By Google Android Design - Roboto-Regular
 
 **Icons:** By [Icons8](https://icons8.com/) 
 
-**Console backgrounds:** from pngtree.com, klipartz.com, fightersgeneration.com, pngmart.com, hiclipart.com, toppng.com, community.arduboy.com, thelatenightsession.com, video-games-museum.com, dosdays.co.uk, vocal.media, seganerds.com, launchbox-app.com, sourcegaming.info, 
+**Console backgrounds:** from pngtree.com, klipartz.com, fightersgeneration.com, pngmart.com, hiclipart.com, toppng.com, community.arduboy.com, thelatenightsession.com, video-games-museum.com, dosdays.co.uk, vocal.media, seganerds.com, launchbox-app.com, sourcegaming.info
 
 **Special thanks to sundownersport for all the testing and advice.
