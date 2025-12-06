@@ -5,9 +5,6 @@
 Theme for spruce modded stock os
 
 
-## Widescreen devices set Game System Select Column Count to 8
-
-
 ### Credits
 
 **Fonts:** By Google Android Design - Roboto-Regular
