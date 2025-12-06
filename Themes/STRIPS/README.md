@@ -1,4 +1,4 @@
-# `Retro TV` *by* `rdwilliamson`
+# `STRIPS` *by* `rdwilliamson`
 
 "Originally adapted from the SPRUCE theme by tenlevels"
 
