@@ -1,11 +1,8 @@
-# `Retro TV` *by* `rdwilliamson`
+# `STRIPS` *by* `rdwilliamson`
 
 "Originally adapted from the SPRUCE theme by tenlevels"
 
 Theme for spruce modded stock os
-
-
-## Widescreen devices set Game System Select Column Count to 8
 
 
 ### Credits

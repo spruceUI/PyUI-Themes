@@ -46,7 +46,7 @@
     "topBarInitialXOffset": 20,
     "setTopBarTextToGameSelection": true,
     "fullScreenGridGameMenuResizeType": "FIT",
-    "gameSelectionViewType": "CAROUSEL",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
     "gameSelectRowCount": 1,
     "systemSelectShowTextGridMode": false,
     "systemSelectViewType": "CAROUSEL",
@@ -62,8 +62,8 @@
     "gameSelectColCount": 1,
     "gameSelectGridResizeType": "FIT",
     "carouselGameSelectSidesHangOff": false,
-    "collectionsEnabled": true,
-    "skipMainMenu": false,
+    "collectionsEnabled": false,
+    "skipMainMenu": true,
     "mergeMainMenuAndGameMenu": false,
     "carouselSystemSelectPrimaryImgWidth": 25,
     "carouselSystemExternalXPad": -52,
@@ -71,5 +71,6 @@
     "carouselSystemFixedWidth": 220,
     "carouselSystemSelectSidesHangOff": false,
     "showExtrasInSystemSelectMenu": true,
-    "appsEnabled": true
+    "appsEnabled": false,
+    "settingsEnabled": false
 }
