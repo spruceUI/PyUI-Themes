@@ -1,8 +1,8 @@
 {
     "showBottomBar": true,
-    "name": "Colorfully Details",
-    "author": "Jamesinorbit, Viking",
-    "description": "Colorfully Details",
+    "name": "Artbook Next",
+    "author": "Anthony Caccese",
+    "description": "the iconic Artbook Next theme adapted to PyUI",
     "title": {
         "font": "nunwen.ttf",
         "size": 25,

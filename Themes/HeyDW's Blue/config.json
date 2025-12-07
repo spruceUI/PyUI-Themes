@@ -48,9 +48,5 @@
         "size": 24,
         "color": "#FFFFFF"
     },
-    "recentsEnabled": false,
-    "gridMultiRowImageYOffset": 0,
-    "singleRowGridTextYOffset": 0,
-    "multiRowGridTextYOffset": -8,
-    "displayVolumeNumbers": true
+    "recentsEnabled": false
 }

@@ -42,15 +42,7 @@
     "list": {
         "font": "PressStart2P.ttf",
         "size": 16,
-        "color": "#304b07",
-        "selectedcolor": "#000000"
+        "color": "#304b07;"
     },
-    "recentsEnabled": false,
-    "mainMenuShowTextGridMode": false,
-    "gridMultiRowFontSize": 22,
-    "gridSingleRowFontSize": 24,
-    "gridMultiRowImageYOffset": -15,
-    "showBottomBarButtons": false,
-    "descriptionFontSize": 12,
-    "descListFontSize": 16
+    "recentsEnabled": false
 }

@@ -48,7 +48,5 @@
         "size": 24,
         "color": "#FFFFFF"
     },
-    "recentsEnabled": false,
-    "displayVolumeNumbers": true,
-    "showClock": false
+    "recentsEnabled": false
 }

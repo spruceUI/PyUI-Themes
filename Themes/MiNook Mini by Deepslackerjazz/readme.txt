@@ -1,1 +1,0 @@
-The included console icons can be used to replace some of the icons in the root Icons folder.

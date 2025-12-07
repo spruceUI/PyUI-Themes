@@ -4,14 +4,14 @@
     "author": "rdwilliamson",
     "description": "spruce theme for Miyoo Flip",
     "batteryPercentage": {
-        "color": "b7a789",
+        "color": "#b7a789",
         "font": "Roboto-Regular.ttf",
         "size": 18
     },
     "title": {
         "font": "Roboto-Regular.ttf",
         "size": 25,
-        "color": "b7a789"
+        "color": "#b7a789"
     },
     "hint": {
         "font": "Roboto-Regular.ttf",
@@ -33,20 +33,20 @@
         "grid1x4": 25,
         "grid3x4": 18,
         "color": "#7C6F64",
-        "selectedcolor": "#b79089"
+        "selectedcolor": "#d4b06c"
     },
     "list": {
         "font": "Roboto-Regular.ttf",
         "size": 24,
         "color": "#b7a789",
-        "selectedcolor": "#b79089"
+        "selectedcolor": "#d4b06c"
     },
     "bindOverMiyooTheme": true,
     "recentsEnabled": false,
     "topBarInitialXOffset": 20,
     "setTopBarTextToGameSelection": true,
     "fullScreenGridGameMenuResizeType": "FIT",
-    "gameSelectionViewType": "ICON_AND_DESC",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
     "gameSelectRowCount": 1,
     "systemSelectShowTextGridMode": false,
     "systemSelectViewType": "GRID",
