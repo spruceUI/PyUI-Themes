@@ -1,4 +1,5 @@
 {
+    "showBottomBar": true,
     "name": "Spruce",
     "author": "tenlevels",
     "description": "spruce theme for a30",
@@ -45,5 +46,8 @@
     "topBarInitialXOffset": 60,
     "setTopBarTextToGameSelection": true,
     "fullScreenGridGameMenuResizeType": "FIT",
-    "mainMenuTitle": ""
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false
 }
