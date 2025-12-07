@@ -1,0 +1,12 @@
+Cyber Punk 2077 Edge Runner
+主题作者：大光圈先森
+
+安装方法：将Emu，miyoo354，RApp，Themes文件夹复制到TF卡根目录并覆盖
+还原方法：
+
+*大部分主题元素Photoshop by 大光圈先森，包括Relic芯片RA模拟器图标，素材来源于互联网
+*背景音乐来自B站[王利夫]大佬发布的《赛博朋克边缘行者 I Really Want to Stay At Your House 8bit版》，BV1gG4y1t7Zv
+*部分素材改版自--[源字商人]EVA主题
+*模拟器图标素材取自--[tahe]Oneday主题
+*本主题仅含主题图片素材，不含模拟器核心文件
+

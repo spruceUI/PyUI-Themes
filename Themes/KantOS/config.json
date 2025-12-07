@@ -44,5 +44,9 @@
         "size": 16,
         "color": "#304b07;"
     },
-    "recentsEnabled": false
+    "recentsEnabled": false,
+    "mainMenuShowTextGridMode": false,
+    "gridMultiRowFontSize": 22,
+    "gridSingleRowFontSize": 24,
+    "gridMultiRowImageYOffset": -15
 }

@@ -1,0 +1,45 @@
+{
+    "showBottomBar": true,
+    "name": "Glamoruce",
+    "author": "metallic77",
+    "description": "a spruce os modern theme",
+    "batteryPercentage": {
+        "color": "#FFFFFF",
+        "font": "font.ttf",
+        "size": 38
+    },
+    "title": {
+        "font": "font.ttf",
+        "size": 49,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "font.ttf",
+        "size": 36,
+        "color": "#FFFFFF"
+    },
+    "currentpage": {
+        "font": "font.ttf",
+        "size": 52,
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "font": "font.ttf",
+        "size": 51,
+        "color": "#FFFFFF"
+    },
+    "grid": {
+        "font": "font.ttf",
+        "grid1x4": 38,
+        "grid3x4": 38,
+        "color": "#646464",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "font.ttf",
+        "size": 32,
+        "color": "#FFF1E8",
+        "selectedcolor": "#FFFFFF"
+    },
+    "recentsEnabled": false
+}

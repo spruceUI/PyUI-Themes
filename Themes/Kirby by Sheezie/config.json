@@ -1,0 +1,40 @@
+{
+    "showBottomBar": true,
+    "name": "Kirby",
+    "author": "Sheezie",
+    "description": "Kirby theme",
+    "batteryPercentage": {
+        "visible": true,
+        "color": "#ffffff",
+        "offsetY": 2
+    },
+    "title": {
+        "font": "BPreplayBold.otf",
+        "size": 26,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "BPreplayBold.otf",
+        "size": 18,
+        "color": "#FFFFFF"
+    },
+    "currentpage": {
+        "color": "#ffffff"
+    },
+    "total": {
+        "color": "#FFFFFF"
+    },
+    "grid": {
+        "font": "AdobeBlank.ttf",
+        "grid1x4": 26,
+        "grid3x4": 26,
+        "color": "#3d354d",
+        "selectedcolor": "#ffff58"
+    },
+    "list": {
+        "font": "BPreplayBold.otf",
+        "size": 24,
+        "color": "#3d354d"
+    },
+    "displayVolumeNumbers": true
+}
