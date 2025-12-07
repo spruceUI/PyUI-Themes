@@ -57,4 +57,7 @@ for theme in */ ; do
     } >> "$OUT"
 done
 
+echo "Cleaning up temp files."
+rm -f ./.*_files
+
 echo "Done. See $OUT"
