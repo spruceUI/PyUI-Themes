@@ -50,5 +50,8 @@
         "size": 26,
         "color": "#FFFFFF"
     },
-    "recentsEnabled": false
+    "recentsEnabled": false,
+    "showClock": false,
+    "gridMultiRowImageYOffset": 15,
+    "multiRowGridTextYOffset": -5
 }

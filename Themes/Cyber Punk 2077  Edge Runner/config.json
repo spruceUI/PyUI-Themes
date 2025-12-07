@@ -1,0 +1,47 @@
+{
+    "showBottomBar": true,
+    "name": "Cyber Punk 2077 Edge Runner",
+    "title": {
+        "font": "Font.ttf",
+        "size": 25,
+        "color": "#D4B3E9"
+    },
+    "path": {
+        "font": "Font.ttf",
+        "size": 25,
+        "color": "#D4B3E9"
+    },
+    "hint": {
+        "font": "Font.ttf",
+        "size": 28,
+        "color": "#D4B3E9"
+    },
+    "currentpage": {
+        "font": "Font.ttf",
+        "size": 28,
+        "color": "#D4B3E9"
+    },
+    "total": {
+        "font": "Font.ttf",
+        "size": 28,
+        "color": "#D4B3E9"
+    },
+    "grid": {
+        "font": "Font.ttf",
+        "fontascii": "Font.ttf",
+        "grid1x4": 23,
+        "grid3x4": 18,
+        "color": "#A78DB8",
+        "selectedcolor": "#EAE201"
+    },
+    "list": {
+        "font": "Font.ttf",
+        "fontascii": "Font.ttf",
+        "size": 25,
+        "color": "#EAE201",
+        "selectedcolor": "#FFFFFF"
+    },
+    "displayBatteryIcon": false,
+    "showClock": false,
+    "multiRowGridTextYOffset": -7
+}
