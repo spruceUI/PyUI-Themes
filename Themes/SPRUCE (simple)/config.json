@@ -42,5 +42,11 @@
 
     },
     "recentsEnabled": false,
-    "topBarInitialXOffset": 60
+    "topBarInitialXOffset": 60,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false
 }

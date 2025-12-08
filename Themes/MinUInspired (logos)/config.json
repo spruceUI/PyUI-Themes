@@ -42,8 +42,11 @@
         "selectedcolor": "#EBEBEB"
     },
     "recentsEnabled": false,
-    "systemSelectViewType": "GRID",
-    "gameSelectionViewType": "TEXT_AND_IMAGE",
-    "batteryPercentFontSize": 28,
-    "topBarFontSize": 28
+    "topBarInitialXOffset": 55,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false
 }
