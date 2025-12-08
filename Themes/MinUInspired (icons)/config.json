@@ -42,5 +42,11 @@
         "selectedcolor": "#EBEBEB"
     },
     "recentsEnabled": false,
-    "topBarInitialXOffset": 55
+    "topBarInitialXOffset": 55,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false
 }
