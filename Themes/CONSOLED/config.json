@@ -47,7 +47,6 @@
     "setTopBarTextToGameSelection": true,
     "fullScreenGridGameMenuResizeType": "FIT",
     "gameSelectionViewType": "TEXT_AND_IMAGE",
-    "gameSelectRowCount": 1,
     "systemSelectShowTextGridMode": false,
     "systemSelectViewType": "FULLSCREEN_GRID",
     "gameSystemSelectColCount": 1,
