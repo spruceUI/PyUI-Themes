@@ -494,7 +494,7 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <img title="RETRO TV" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/RETRO%20TV/preview.png" /><br/>
         <b>RETRO TV</b></a><br/>
         <small><i>rdwilliamson</i></small><br/>
-        <small>spruce theme for Miyoo Flip</small><br/>
+        <small>Theme for Spruce OS</small><br/>
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
@@ -502,7 +502,7 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <img title="SLANTED" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/SLANTED/preview.png" /><br/>
         <b>SLANTED</b></a><br/>
         <small><i>rdwilliamson</i></small><br/>
-        <small>spruce theme for Miyoo Flip</small><br/>
+        <small>Theme for Spruce OS</small><br/>
         </td>
 </tr>
 <tr>
@@ -528,7 +528,7 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <img title="STRIPS" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/STRIPS/preview.png" /><br/>
         <b>STRIPS</b></a><br/>
         <small><i>rdwilliamson</i></small><br/>
-        <small>spruce theme for Miyoo Flip</small><br/>
+        <small>Theme for Spruce OS</small><br/>
         </td>
 </tr>
 <tr>
