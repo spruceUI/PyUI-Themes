@@ -122,7 +122,7 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <img title="CONSOLED" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/CONSOLED/preview.png" /><br/>
         <b>CONSOLED</b></a><br/>
         <small><i>rdwilliamson</i></small><br/>
-        <small>spruce theme for Miyoo Flip</small><br/>
+        <small>Theme for Spruce OS</small><br/>
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
