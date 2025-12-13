@@ -2,7 +2,7 @@
     "showBottomBar": true,
     "name": "CONSOLED V2",
     "author": "rdwilliamson",
-    "description": "spruce theme for Miyoo Flip",
+    "description": "Theme for Spruce OS",
     "batteryPercentage": {
         "color": "#b7a789",
         "font": "Roboto-Regular.ttf",
@@ -47,7 +47,6 @@
     "setTopBarTextToGameSelection": true,
     "fullScreenGridGameMenuResizeType": "FIT",
     "gameSelectionViewType": "TEXT_AND_IMAGE",
-    "gameSelectRowCount": 1,
     "systemSelectShowTextGridMode": false,
     "systemSelectViewType": "GRID",
     "gameSystemSelectColCount": 1,
@@ -59,7 +58,6 @@
     "gridMultiRowSelBgResizePadHeight": 20,
     "mainMenuShowTextGridMode": false,
     "systemSelectShowSelectedBgGridMode": false,
-    "gameSelectColCount": 1,
     "gameSelectGridResizeType": "FIT",
     "carouselGameSelectSidesHangOff": false
 }
