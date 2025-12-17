@@ -1,4 +1,5 @@
 {
+    "showBottomBar": true,
     "name": "StarOnion64",
     "author": "LeonardoDaPinchy",
     "description": "A StarFox64 Theme",
@@ -9,7 +10,7 @@
     "batteryPercentage": {
         "visible": true,
         "font": "all-aircraft-report.ttf",
-        "size": 32,
+        "size": 17,
         "color": "#00A6FF",
         "offsetX": 7,
         "offsetY": 2,
@@ -17,12 +18,12 @@
     },
     "title": {
         "font": "all-aircraft-report.ttf",
-        "size": 32,
+        "size": 17,
         "color": "#00A6FF"
     },
     "hint": {
         "font": "all-aircraft-report.ttf",
-        "size": 24,
+        "size": 12,
         "color": "#00A6FF"
     },
     "currentpage": {
@@ -33,14 +34,24 @@
     },
     "grid": {
         "font": "all-aircraft-report.ttf",
-        "grid1x4": 24,
-        "grid3x4": 20,
+        "grid1x4": 12,
+        "grid3x4": 10,
         "color": "#00A6FF",
         "selectedcolor": "#00A6FF"
     },
     "list": {
         "font": "all-aircraft-report.ttf",
-        "size": 24,
+        "size": 12,
         "color": "#00A6FF"
-    }
+    },
+    "topBarFontSize": 22,
+    "batteryPercentFontSize": 22,
+    "listFontSize": 20,
+    "messageFontSize": 18,
+    "descriptionFontSize": 16,
+    "descListFontSize": 20,
+    "gridSingleRowFontSize": 20,
+    "gridMultiRowFontSize": 16,
+    "indexSelectedFontSize": 22,
+    "indexTotalSize": 22
 }
