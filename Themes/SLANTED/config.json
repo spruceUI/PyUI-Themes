@@ -50,7 +50,7 @@
     "systemSelectShowTextGridMode": false,
     "systemSelectViewType": "CAROUSEL",
     "gameSystemSelectColCount": 6,
-    "gameSystemSelectRowCount": 1,
+    "gameSystemSelectRowCount": 0,
     "systemSelectFullScreenGridTextOverlay": false,
     "mainMenuViewType": "CAROUSEL",
     "mainMenuColCount": 3,
@@ -60,15 +60,15 @@
     "systemSelectShowSelectedBgGridMode": false,
     "gameSelectGridResizeType": "FIT",
     "carouselGameSelectSidesHangOff": false,
-    "collectionsEnabled": false,
+    "collectionsEnabled": true,
     "skipMainMenu": true,
     "mergeMainMenuAndGameMenu": false,
     "carouselSystemSelectPrimaryImgWidth": 25,
     "carouselSystemExternalXPad": -52,
-    "carouselSystemUsePercentageMode": false,
+    "carouselSystemUsePercentageMode": true,
     "carouselSystemFixedWidth": 220,
     "carouselSystemSelectSidesHangOff": false,
     "showExtrasInSystemSelectMenu": true,
-    "appsEnabled": false,
-    "settingsEnabled": false
+    "appsEnabled": true,
+    "settingsEnabled": true
 }
