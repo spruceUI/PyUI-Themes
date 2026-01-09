@@ -4,40 +4,40 @@
     "author": "Anthony Caccese",
     "description": "the iconic Artbook Next theme adapted to PyUI",
     "title": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "size": 25,
         "color": "#FFFFFF"
     },
     "hint": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "size": 25,
         "color": "#FFFFFF"
     },
     "currentpage": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "size": 22,
         "color": "#FFFFFF"
     },
     "total": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "size": 22,
         "color": "#FFFFFF"
     },
     "grid": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "grid1x4": 25,
         "grid3x4": 18,
         "color": "#6e6f6d",
         "selectedcolor": "#FFFFFF"
     },
     "list": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "size": 24,
         "color": "#FFFFFF",
         "selectedcolor": "#000000"
     },
     "shadowed": {
-        "font": "nunwen.ttf",
+        "font": "Roboto-Regular.ttf",
         "shadowedFontSize": 40,
         "shadowedFontBackdropSize": 40,
         "shadowedFontColor": "#000000",
@@ -48,7 +48,7 @@
         "shadowedFontBackdropSmallColor": "#FFFFFF"
     },
     "gameSelectionViewType": "TEXT_AND_IMAGE",
-    "systemSelectViewType": "FULLSCREEN_GRID",
+    "systemSelectViewType": "CAROUSEL",
     "gameSelectImgWidth": 140,
     "gameSelectImgHeight": 140,
     "gridGameSelectImgWidth": 140,
@@ -65,8 +65,19 @@
     "skipMainMenu": true,
     "mainMenuColCount": 5,
     "systemSelectFullScreenGridTextOverlay": false,
-    "gameSystemSelectColCount": 1,
+    "gameSystemSelectColCount": 6,
     "gameSystemSelectRowCount": 1,
     "systemSelectShowTextGridMode": false,
-    "systemSelectShowSelectedBgGridMode": false
+    "systemSelectShowSelectedBgGridMode": false,
+    "fullScreenGridSystemSelectMenuResizeType": "NONE",
+    "carouselSystemUsePercentageMode": false,
+    "carouselSystemUseSelectedImageInAnimation": true,
+    "carouselSystemFixedWidth": 250,
+    "carouselSystemSelectShrinkFurtherAway": false,
+    "carouselSystemSelectSidesHangOff": false,
+    "carouselSystemFixedSelectedWidth": 250,
+    "carouselSystemAdditionalYOffset": 0,
+    "carouselSystemExternalXPad": -69,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false
 }
