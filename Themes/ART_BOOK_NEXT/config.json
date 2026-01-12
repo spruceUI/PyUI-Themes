@@ -78,6 +78,9 @@
     "carouselSystemFixedSelectedWidth": 250,
     "carouselSystemAdditionalYOffset": 0,
     "carouselSystemExternalXPad": -69,
-    "mergeMainMenuAndGameMenu": false,
-    "showExtrasInSystemSelectMenu": false
+    "mergeMainMenuAndGameMenu": true,
+    "showExtrasInSystemSelectMenu": true,
+    "collectionsEnabled": true,
+    "settingsEnabled": false,
+    "appsEnabled": false
 }
