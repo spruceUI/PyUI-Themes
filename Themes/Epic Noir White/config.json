@@ -1,0 +1,75 @@
+{
+    "showBottomBar": true,
+    "renderTopAndBottomBarLast": true,
+    "name": "Epic Noir Light",
+    "author": "Mntz (modified from c64-dev & Chicuelo's original)",
+    "description": "Light version of the Epic Noir theme (Main Consoles Only)",
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#000000"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#000000"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#000000"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#000000"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#6e6f6d",
+        "selectedcolor": "#000000"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#000000",
+        "selectedcolor": "#FFFFFF"
+    },
+    "shadowed": {
+        "font": "Roboto-Regular.ttf",
+        "shadowedFontSize": 40,
+        "shadowedFontBackdropSize": 40,
+        "shadowedFontColor": "#FFFFFF",
+        "shadowedFontBackdropColor": "#000000",
+        "shadowedFontSmallSize": 26,
+        "shadowedFontBackdropSmallSize": 26,
+        "shadowedFontSmallColor": "#FFFFFF",
+        "shadowedFontBackdropSmallColor": "#000000"
+    },
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "systemSelectViewType": "FULLSCREEN_GRID",
+    "gameSelectImgWidth": 140,
+    "gameSelectImgHeight": 140,
+    "gridGameSelectImgWidth": 140,
+    "gridGameSelectImgHeight": 140,
+    "listGameSelectImgWidth": 294,
+    "listGameSelectImgHeight": 294,
+    "gameSelectShowTextGridMode": false,
+    "gameSelectShowSelectedBgGridMode": true,
+    "setTopBarTextToGameSelection": true,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "gridMultiRowExtraYPad": 17,
+    "gameSelectGridResizeType": "ZOOM",
+    "skipMainMenu": true,
+    "mainMenuColCount": 5,
+    "fullScreenGridSystemSelectMenuResizeType": "NONE",
+    "topBarFontSize": 20,
+    "batteryPercentFontSize": 20,
+    "indexSelectedFontSize": 24,
+    "indexTotalSize": 24,
+    "gridSingleRowFontSize": 20,
+    "systemSelectFullScreenGridTextOverlay": false
+}
