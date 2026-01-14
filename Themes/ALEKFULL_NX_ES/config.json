@@ -59,7 +59,7 @@
     "systemSelectGridResizeType": "FIT",
     "carouselSystemUsePercentageMode": false,
     "carouselSystemFixedWidth": 130,
-    "gameSystemSelectCarouselColCount": 5,
+    "gameSystemSelectCarouselColCount": 7,
     "mergeMainMenuAndGameMenu": true,
     "showExtrasInSystemSelectMenu": true,
     "mainMenuTitle": "",
