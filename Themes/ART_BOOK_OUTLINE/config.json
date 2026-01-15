@@ -1,51 +1,52 @@
 {
     "showBottomBar": true,
+    "renderTopAndBottomBarLast": true,
     "name": "Artbook Next Outline",
     "author": "Anthony Caccese",
     "description": "Artbook Outline Version adapted PyUI",
     "title": {
         "font": "Roboto-Regular.ttf",
         "size": 25,
-        "color": "#000000"
+        "color": "#FFFFFF"
     },
     "hint": {
         "font": "Roboto-Regular.ttf",
         "size": 25,
-        "color": "#000000"
+        "color": "#FFFFFF"
     },
     "currentpage": {
         "font": "Roboto-Regular.ttf",
         "size": 22,
-        "color": "#000000"
+        "color": "#FFFFFF"
     },
     "total": {
         "font": "Roboto-Regular.ttf",
         "size": 22,
-        "color": "#000000"
+        "color": "#FFFFFF"
     },
     "grid": {
         "font": "Roboto-Regular.ttf",
         "grid1x4": 25,
         "grid3x4": 18,
         "color": "#6e6f6d",
-        "selectedcolor": "#000000"
+        "selectedcolor": "#FFFFFF"
     },
     "list": {
         "font": "Roboto-Regular.ttf",
         "size": 24,
-        "color": "#000000",
-        "selectedcolor": "#FFFFFF"
+        "color": "#FFFFFF",
+        "selectedcolor": "#000000"
     },
     "shadowed": {
         "font": "Roboto-Regular.ttf",
         "shadowedFontSize": 40,
         "shadowedFontBackdropSize": 40,
-        "shadowedFontColor": "#FFFFFF",
-        "shadowedFontBackdropColor": "#000000",
+        "shadowedFontColor": "#000000",
+        "shadowedFontBackdropColor": "#FFFFFF",
         "shadowedFontSmallSize": 26,
         "shadowedFontBackdropSmallSize": 26,
-        "shadowedFontSmallColor": "#FFFFFF",
-        "shadowedFontBackdropSmallColor": "#000000"
+        "shadowedFontSmallColor": "#000000",
+        "shadowedFontBackdropSmallColor": "#FFFFFF"
     },
     "gameSelectionViewType": "TEXT_AND_IMAGE",
     "systemSelectViewType": "CAROUSEL",
@@ -72,15 +73,17 @@
     "fullScreenGridSystemSelectMenuResizeType": "NONE",
     "carouselSystemUsePercentageMode": false,
     "carouselSystemUseSelectedImageInAnimation": true,
-    "carouselSystemFixedWidth": 250,
+    "carouselSystemFixedWidth": 292,
     "carouselSystemSelectShrinkFurtherAway": false,
     "carouselSystemSelectSidesHangOff": false,
-    "carouselSystemFixedSelectedWidth": 250,
+    "carouselSystemFixedSelectedWidth": 292,
     "carouselSystemAdditionalYOffset": 0,
     "carouselSystemExternalXPad": -69,
     "mergeMainMenuAndGameMenu": true,
     "showExtrasInSystemSelectMenu": true,
     "collectionsEnabled": true,
     "settingsEnabled": false,
-    "appsEnabled": false
+    "appsEnabled": false,
+    "confirmText":"",
+    "backText":""
 }
