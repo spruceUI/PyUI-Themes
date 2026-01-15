@@ -1,0 +1,86 @@
+{
+    "showBottomBar": true,
+    "name": "Artbook Next Outline",
+    "author": "Anthony Caccese",
+    "description": "Artbook Outline Version adapted PyUI",
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#000000"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#000000"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#000000"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#000000"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#6e6f6d",
+        "selectedcolor": "#000000"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#000000",
+        "selectedcolor": "#FFFFFF"
+    },
+    "shadowed": {
+        "font": "Roboto-Regular.ttf",
+        "shadowedFontSize": 40,
+        "shadowedFontBackdropSize": 40,
+        "shadowedFontColor": "#FFFFFF",
+        "shadowedFontBackdropColor": "#000000",
+        "shadowedFontSmallSize": 26,
+        "shadowedFontBackdropSmallSize": 26,
+        "shadowedFontSmallColor": "#FFFFFF",
+        "shadowedFontBackdropSmallColor": "#000000"
+    },
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "systemSelectViewType": "CAROUSEL",
+    "gameSelectImgWidth": 140,
+    "gameSelectImgHeight": 140,
+    "gridGameSelectImgWidth": 140,
+    "gridGameSelectImgHeight": 140,
+    "listGameSelectImgWidth": 294,
+    "listGameSelectImgHeight": 294,
+    "gameSelectShowTextGridMode": false,
+    "gameSelectShowSelectedBgGridMode": true,
+    "setTopBarTextToGameSelection": true,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "gridMultiRowExtraYPad": 17,
+    "gameSelectGridResizeType": "ZOOM",
+    "skipMainMenu": true,
+    "mainMenuColCount": 5,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "gameSystemSelectColCount": 6,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "fullScreenGridSystemSelectMenuResizeType": "NONE",
+    "carouselSystemUsePercentageMode": false,
+    "carouselSystemUseSelectedImageInAnimation": true,
+    "carouselSystemFixedWidth": 250,
+    "carouselSystemSelectShrinkFurtherAway": false,
+    "carouselSystemSelectSidesHangOff": false,
+    "carouselSystemFixedSelectedWidth": 250,
+    "carouselSystemAdditionalYOffset": 0,
+    "carouselSystemExternalXPad": -69,
+    "mergeMainMenuAndGameMenu": true,
+    "showExtrasInSystemSelectMenu": true,
+    "collectionsEnabled": true,
+    "settingsEnabled": false,
+    "appsEnabled": false
+}
