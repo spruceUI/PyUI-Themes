@@ -84,6 +84,7 @@
     "collectionsEnabled": true,
     "settingsEnabled": false,
     "appsEnabled": false,
-    "confirmText":"",
-    "backText":""
+    "confirmText": "",
+    "backText": "",
+    "carouselSystemResizeType": "NONE"
 }
