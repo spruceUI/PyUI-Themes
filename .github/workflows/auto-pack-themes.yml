@@ -30,7 +30,7 @@ jobs:
       - name: Package Modified Themes
         run: |
           # Get modified and new files from Themes directory
-          MODIFIED_FILES=$(git diff --name-only HEAD^ HEAD | grep '^Themes/' || true)
+          MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^Themes/' || true)
           NEW_FILES=$(git ls-files --others --exclude-standard | grep '^Themes/' || true)
           ALL_CHANGED_FILES="$MODIFIED_FILES"$'\n'"$NEW_FILES"
           
