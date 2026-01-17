@@ -36,7 +36,7 @@
         "color": "#FFFFFF",
         "selectedcolor": "#000000"
     },
-    "shadowed": {
+    "shadowed": { 
         "font": "Roboto-Regular.ttf",
         "shadowedFontSize": 40,
         "shadowedFontBackdropSize": 40,

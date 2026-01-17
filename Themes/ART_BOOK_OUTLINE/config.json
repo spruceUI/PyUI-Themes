@@ -47,7 +47,7 @@
         "shadowedFontBackdropSmallSize": 26,
         "shadowedFontSmallColor": "#000000",
         "shadowedFontBackdropSmallColor": "#FFFFFF"
-    },
+    }, 
     "gameSelectionViewType": "TEXT_AND_IMAGE",
     "systemSelectViewType": "CAROUSEL",
     "gameSelectImgWidth": 140,
