@@ -1,0 +1,74 @@
+{
+    "showBottomBar": true,
+    "name": "LittleBigPlanet Theme",
+    "hideIconTitle": false,
+    "batteryPercentage": {
+        "visible": true,
+        "font": "EigerdalsHeavy.OTF",
+        "size": 7,
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "fixed": true,
+        "offsetX": 0,
+        "offsetY": -5
+    },
+    "author": "AlpineShowTime",
+    "description": "A Loveletter to LittleBigPlanet fans who happen to play on these fun little devices! If you fall under that niche",
+    "hideLabels": {
+        "icons": false,
+        "hints": true
+    },
+    "title": {
+        "font": "EigerdalsHeavy.OTF",
+        "size": 36,
+        "color": "#FFFFFF"
+    },
+    "hint": {
+        "font": "EigerdalsHeavy.OTF",
+        "size": 30,
+        "color": "#FFFFFF"
+    },
+    "currentpage": {
+        "color": "#FFFFFF"
+    },
+    "total": {
+        "color": "#FFFFFF"
+    },
+    "grid": {
+        "font": "CoreBandiFace.TTF",
+        "grid1x4": 18,
+        "grid3x4": 23,
+        "color": "#FFFFFF",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "CrikeySquatsRegular.ttf",
+        "size": 25,
+        "color": "#FFFFFF"
+    },
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "mainMenuViewType": "GRID",
+    "gameSystemSelectRowCount": 2,
+    "systemSelectGridResizeType": "NONE",
+    "systemSelectShowTextGridMode": true,
+    "systemSelectViewType": "ICON_AND_DESC",
+    "carouselSystemUsePercentageMode": true,
+    "gameSystemSelectCarouselColCount": 8,
+    "showClock": true,
+    "showBottomBarButtons": true,
+    "displayBatteryPercent": true,
+    "displayBatteryIcon": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "displayVolumeNumbers": true,
+    "carouselGameSelectPrimaryImgWidth": 55,
+    "gameSelectCarouselColCount": 6,
+    "collectionsEnabled": false,
+    "mainMenuTitle": "spruceO",
+    "carouselGameSelectShrinkFurtherAway": false,
+    "systemSelectionSetBottomBarText": false,
+    "mergeMainMenuAndGameMenu": false,
+    "mainMenuColCount": 5,
+    "mainMenuGridWrapAroundSingleRow": false,
+    "favoritesEnabled": true
+}
