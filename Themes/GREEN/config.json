@@ -1,0 +1,74 @@
+{
+    "showBottomBar": true,
+    "name": "GREEN",
+    "author": "rdwilliamson",
+    "description": "Theme for Spruce OS",
+    "batteryPercentage": {
+        "color": "#d2deda",
+        "font": "Roboto-Regular.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#d2deda"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#d2deda"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#d2deda"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#d2deda"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#d2deda",
+        "selectedcolor": "#ffd966"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#d2deda",
+        "selectedcolor": "#ffd966"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "ICON_AND_DESC",
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "ICON_AND_DESC",
+    "gameSystemSelectColCount": 6,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "CAROUSEL",
+    "mainMenuColCount": 3,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectGridResizeType": "FIT",
+    "carouselGameSelectSidesHangOff": false,
+    "collectionsEnabled": false,
+    "skipMainMenu": true,
+    "mergeMainMenuAndGameMenu": false,
+    "carouselSystemSelectPrimaryImgWidth": 25,
+    "carouselSystemExternalXPad": -15,
+    "carouselSystemUsePercentageMode": false,
+    "carouselSystemFixedWidth": 490,
+    "carouselSystemSelectSidesHangOff": false,
+    "showExtrasInSystemSelectMenu": true,
+    "appsEnabled": false,
+    "settingsEnabled": false
+}
