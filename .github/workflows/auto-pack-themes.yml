@@ -7,6 +7,8 @@ concurrency:
 
 on:
   push:
+    branches:
+      - main
     paths-ignore:
       - '*.7z'
       - '.*'
@@ -84,3 +86,4 @@ jobs:
           git add PackedThemes/*.7z
           git commit -m "Update theme packages" || echo "No changes to commit"
           git push
+
