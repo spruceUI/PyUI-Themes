@@ -1,0 +1,62 @@
+{
+    "name": "PS-modern-dark-cold",
+    "author": "Nicolas C",
+    "description": "Modern looking theme with PS elements, in a dark palette.",
+    "batteryPercentage": {
+        "color": "#e4e5e7ff",
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 25,
+        "color": "#e4e5e7ff"
+    },
+    "hint": {
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 25,
+        "color": "#e4e5e7ff"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 22,
+        "color": "#e4e5e7ff"
+    },
+    "total": {
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 22,
+        "color": "#e4e5e7ff"
+    },
+    "grid": {
+        "font": "Roboto-Regular-patched.tff",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#e4e5e7ff",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "Roboto-Regular-patched.ttf",
+        "size": 24,
+        "color": "#e4e5e7ff",
+        "selectedcolor": "#121721"
+
+    },
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false,
+    "gameSystemSelectColCount": 3,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectGridResizeType": "FIT",
+    "gridSystemSelectImgWidth": 160,
+    "gridSystemSelectImgHeight": 160,
+    "systemSelectGridWrapAroundSingleRow": false,
+    "gridBgOffsetToImageOffset": true,
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "systemSelectShowTextGridMode": false,
+    "mainMenuShowTextGridMode": false
+}
