@@ -1,0 +1,69 @@
+{
+    "showBottomBar": true,
+    "name": "COMICS",
+    "author": "rdwilliamson",
+    "description": "Theme for Spruce OS",
+    "batteryPercentage": {
+        "color": "#b7a789",
+        "font": "Roboto-Regular.ttf",
+        "size": 28
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 40,
+        "color": "#b7a789"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 40,
+        "color": "#b7a789"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 35,
+        "color": "#b7a789"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 35,
+        "color": "#b79089"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 40,
+        "grid3x4": 28,
+        "color": "#7C6F64",
+        "selectedcolor": "#d4b06c"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 38,
+        "color": "#b7a789",
+        "selectedcolor": "#d4b06c"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 32,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "GRID",
+    "gameSystemSelectColCount": 1,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "GRID",
+    "mainMenuColCount": 1,
+    "gridMultiRowSelBgResizePadWidth": 32,
+    "gridMultiRowSelBgResizePadHeight": 32,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectGridResizeType": "FIT",
+    "carouselGameSelectSidesHangOff": false,
+    "skipMainMenu": true,
+    "mergeMainMenuAndGameMenu": true,
+    "showExtrasInSystemSelectMenu": true,
+    "collectionsEnabled": true,
+    "appsEnabled": false,
+    "settingsEnabled": false
+}
