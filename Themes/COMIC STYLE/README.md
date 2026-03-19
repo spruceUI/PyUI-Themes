@@ -10,8 +10,6 @@ Theme for spruce modded stock os
 
 **Fonts:** By Google Android Design - Roboto-Regular
 
-**Icons:** By [Icons8](https://icons8.com/) 
-
-**Console backgrounds:** from pngtree.com, gamesradar.com, video-games-museum.com, wallpapersafari.com, dosgamesarchive.com, blockfort.com, flaticon.com
+**Icons:** By me 
 
 **Special thanks to sundownersport for all the testing and advice.
