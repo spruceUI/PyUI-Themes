@@ -16,7 +16,9 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,55 +26,63 @@ jobs:
       
       - name: Check for new themes
         id: check-themes
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          # Get list of all current theme directories, sorted
-          current_themes=$(find Themes -maxdepth 1 -mindepth 1 -type d | sed 's|Themes/||' | sort)
-          echo "::debug::Current themes in directory:"
+          normalize_name() {
+            echo "$1" | sed "s/ /_/g; s/'//g; s/!//g"
+          }
+
+          # Get normalized list of theme directories
+          current_themes=$(find Themes -maxdepth 1 -mindepth 1 -type d | sed 's|Themes/||' | while IFS= read -r name; do normalize_name "$name"; done | sort)
+          echo "::debug::Current themes (normalized):"
           echo "::debug::$current_themes"
-          
-          # Get list of themes from README, sorted
-          readme_themes=$(grep -o 'PackedThemes/[^/]*\.7z' README.md | 
-            sed 's|PackedThemes/||' | 
-            sed 's|\.7z$||' | 
-            sed 's/%20/ /g' | 
-            sort)
-          echo "::debug::Themes found in README:"
-          echo "::debug::$readme_themes"
-          
-          # Create temporary files for comparison
+
+          # Get list of themes from release assets
+          release_themes=$(gh release view 1 --json assets -q '.assets[].name' 2>/dev/null | sed 's|\.7z$||' | sort)
+          echo "::debug::Themes in release:"
+          echo "::debug::$release_themes"
+
           echo "$current_themes" > current_themes.txt
-          echo "$readme_themes" > readme_themes.txt
-          
-          # Compare the sorted lists and store differences
-          if ! diff current_themes.txt readme_themes.txt > theme_diff.txt; then
-            echo "::notice::Differences detected between directory and README:"
+          echo "$release_themes" > release_themes.txt
+
+          if ! diff current_themes.txt release_themes.txt > theme_diff.txt; then
+            echo "::notice::Differences detected between directory and release:"
             cat theme_diff.txt
             echo "theme_changed=1" >> "$GITHUB_OUTPUT"
           else
             echo "::notice::No differences detected"
             echo "theme_changed=0" >> "$GITHUB_OUTPUT"
           fi
-          
-          # Clean up temp files
-          rm current_themes.txt readme_themes.txt theme_diff.txt
+
+          rm current_themes.txt release_themes.txt theme_diff.txt
 
       - name: Generate Theme Gallery
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_run' || steps.check-themes.outputs.theme_changed == '1'
         id: generate-gallery
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          normalize_name() {
+            echo "$1" | sed "s/ /_/g; s/'//g; s/!//g"
+          }
+
+          # Fetch release asset list once
+          RELEASE_ASSETS=$(gh release view 1 --json assets -q '.assets[].name' 2>/dev/null || echo "")
+
           # Create backup of current README
           cp README.md README.md.bak
-          
+
           # Create temporary files
           TEMP_FILE=$(mktemp)
           GALLERY_CONTENT=$(mktemp)
-          
+
           # Generate the new gallery content
           echo -e "## Theme Gallery\n" > "$GALLERY_CONTENT"
-          
+
           # Initialize arrays for the grid
           declare -a themes=()
-          
+
           # Process each theme folder
           for theme_dir in Themes/*/; do
             if [ -d "$theme_dir" ] && [ "$theme_dir" != "PackedThemes/" ]; then
@@ -80,33 +90,32 @@ jobs:
               theme_name="${theme_name%/}"
               preview_path_gif="$theme_dir/preview.gif"
               preview_path_png="$theme_dir/preview.png"
-              packed_path="PackedThemes/$theme_name.7z"
               config_path="$theme_dir/config.json"
-              
-              if [ -f "$packed_path" ] && [ -f "$config_path" ] && { [ -f "$preview_path_gif" ] || [ -f "$preview_path_png" ]; }; then
+              normalized_theme="$(normalize_name "$theme_name")"
+
+              if echo "$RELEASE_ASSETS" | grep -qF "${normalized_theme}.7z" && [ -f "$config_path" ] && { [ -f "$preview_path_gif" ] || [ -f "$preview_path_png" ]; }; then
                 # Extract author and description from config.json
                 author=$(jq -r '.author' "$config_path")
                 description=$(jq -r '.description' "$config_path")
-                
+
                 # Determine which preview file to use
                 if [ -f "$preview_path_gif" ]; then
                   preview_path="$preview_path_gif"
                 else
                   preview_path="$preview_path_png"
                 fi
-                
+
                 # Create properly encoded URLs
                 preview_path=$(echo "$preview_path" | sed 's|^Themes/||')
                 theme_name_encoded=$(echo "$theme_name" | sed -e 's/ /%20/g')
-                
+
                 preview_url="https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/Themes/${theme_name_encoded}/preview.png"
                 preview_img="<img title=\"${theme_name}\" width=\"200px\" src=\"${preview_url}\" />"
-                download_url="https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/PackedThemes/${theme_name_encoded}.7z"
-                
-                # Clean up URLs (remove any double slashes except after https:)
+                download_url="https://github.com/$GITHUB_REPOSITORY/releases/download/1/${normalized_theme}.7z"
+
+                # Clean up preview URL (remove any double slashes except after https:)
                 preview_url=$(echo "$preview_url" | sed -e 's|//|/|g' -e 's|https:/|https://|')
-                download_url=$(echo "$download_url" | sed -e 's|//|/|g' -e 's|https:/|https://|')
-                
+
                 # Create theme cell content
                 theme_cell="<td align=\"center\" valign=\"top\" width=\"33.33%\">
                   <br/>
@@ -116,7 +125,7 @@ jobs:
                   <small><i>$author</i></small><br/>
                   <small>$description</small><br/>
                   </td>"
-                
+
                 themes+=("$theme_cell")
               fi
             fi

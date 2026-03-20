@@ -18,7 +18,9 @@ on:
 jobs:
   package-themes:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -77,13 +79,23 @@ jobs:
             fi
           done
           
-      - name: Commit and push changes
+      - name: Upload to Release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          
-          # Add and commit changes
-          git add PackedThemes/*.7z
-          git commit -m "Update theme packages" || echo "No changes to commit"
-          git push
+          normalize_name() {
+            echo "$1" | sed "s/ /_/g; s/'//g; s/!//g"
+          }
+
+          for f in PackedThemes/*.7z; do
+            [ -f "$f" ] || continue
+            base="$(basename "$f")"
+            normalized="$(normalize_name "$base")"
+            if [ "$base" != "$normalized" ]; then
+              cp "$f" "PackedThemes/$normalized"
+              gh release upload 1 "PackedThemes/$normalized" --clobber
+            else
+              gh release upload 1 "$f" --clobber
+            fi
+          done
 

@@ -6,7 +6,9 @@ on:
 jobs:
   package-themes:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,11 +21,6 @@ jobs:
           
       - name: Prepare PackedThemes Directory
         run: |
-          # Create PackedThemes directory if it doesn't exist
-          mkdir -p PackedThemes
-          # Remove all existing files in PackedThemes (including git-tracked files)
-          git rm -rf PackedThemes/*.7z || true
-          # Ensure the directory exists after git rm
           mkdir -p PackedThemes
           
       - name: Package All Themes
@@ -59,10 +56,22 @@ jobs:
             fi
           done
           
-      - name: Commit and Push Changes
+      - name: Upload to Release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add PackedThemes/*.7z
-          git commit -m "Update all theme packages" || echo "No changes to commit"
-          git push
+          normalize_name() {
+            echo "$1" | sed "s/ /_/g; s/'//g; s/!//g"
+          }
+
+          for f in PackedThemes/*.7z; do
+            [ -f "$f" ] || continue
+            base="$(basename "$f")"
+            normalized="$(normalize_name "$base")"
+            if [ "$base" != "$normalized" ]; then
+              cp "$f" "PackedThemes/$normalized"
+              gh release upload 1 "PackedThemes/$normalized" --clobber
+            else
+              gh release upload 1 "$f" --clobber
+            fi
+          done
