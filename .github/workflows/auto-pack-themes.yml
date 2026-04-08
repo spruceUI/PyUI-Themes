@@ -1,7 +1,7 @@
 name: Auto Package Themes
 
 # Add this concurrency group
-concurrency: 
+concurrency:
   group: theme-packing
   cancel-in-progress: false
 
@@ -25,38 +25,38 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Install 7-Zip
         run: |
           sudo apt-get update
           sudo apt-get install -y p7zip-full
-          
+
       - name: Package Modified Themes
         run: |
           # Get modified and new files from Themes directory
           MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^Themes/' || true)
           NEW_FILES=$(git ls-files --others --exclude-standard | grep '^Themes/' || true)
           ALL_CHANGED_FILES="$MODIFIED_FILES"$'\n'"$NEW_FILES"
-          
+
           if [ -z "$ALL_CHANGED_FILES" ]; then
             echo "No theme files were modified or added"
             exit 0
           fi
-          
+
           echo "Modified and new files:"
           echo "$ALL_CHANGED_FILES"
-          
+
           # Extract unique theme names from changed files
           THEMES=$(echo "$ALL_CHANGED_FILES" | cut -d'/' -f2 | sort -u)
-          
+
           echo "Debug: Listing each theme individually:"
           printf '%s\n' "$THEMES"
-          
+
           WORKSPACE="$PWD"
-          
+
           # Ensure PackedThemes directory exists
           mkdir -p PackedThemes
-          
+
           # Process each modified theme
           printf '%s\n' "$THEMES" | while IFS= read -r theme; do
             echo "Debug: Processing theme: '$theme'"
@@ -64,21 +64,21 @@ jobs:
               echo "Debug: Theme directory exists: 'Themes/$theme'"
               # Remove existing archive if it exists
               rm -f "PackedThemes/${theme}.7z"
-              
+
               # Create temporary directory structure
               mkdir -p "temp/mnt/SDCARD/Themes"
               cp -r "Themes/$theme" "temp/mnt/SDCARD/Themes/"
-              
-              # Create fresh 7z archive in PackedThemes directory
-              7z a -r "PackedThemes/${theme}.7z" "${WORKSPACE}/temp/mnt"
-              
+
+              # Create fresh 7z archive — cd into temp so paths start at mnt/SDCARD/
+              (cd temp && 7z a -r "${WORKSPACE}/PackedThemes/${theme}.7z" mnt)
+
               # Cleanup
               rm -rf temp
             else
               echo "Debug: Theme directory does not exist: 'Themes/$theme'"
             fi
           done
-          
+
       - name: Upload to Release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -98,4 +98,3 @@ jobs:
               gh release upload 1 "$f" --clobber
             fi
           done
-
