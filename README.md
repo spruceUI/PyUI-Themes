@@ -152,12 +152,22 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
+        <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/COMIC_STYLE_V2.7z">
+        <img title="COMIC STYLE V2" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/COMIC%20STYLE%20V2/preview.png" /><br/>
+        <b>COMIC STYLE V2</b></a><br/>
+        <small><i>rdwilliamson</i></small><br/>
+        <small>Theme for Spruce OS</small><br/>
+        </td>
+<td align="center" valign="top" width="33.33%">
+        <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/COMIC_STYLE.7z">
         <img title="COMIC STYLE" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/COMIC%20STYLE/preview.png" /><br/>
         <b>COMIC STYLE</b></a><br/>
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/CONSOLED_V1.7z">
@@ -166,8 +176,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/CONSOLED_V2.7z">
@@ -184,6 +192,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>spruce theme for Miyoo Flip</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/CleanOnionGB_by_KulhyCZ.7z">
@@ -192,8 +202,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>KulhyCZ</i></small><br/>
         <small>Clean</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Cosy_by_KyleBing.7z">
@@ -210,6 +218,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>null</i></small><br/>
         <small>null</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/EPIC_ARTBOOK_NOIR.7z">
@@ -218,8 +228,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Jamesinorbit</i></small><br/>
         <small>Epic ArtBook Noir modified from Jamesinorbit's for dajishou</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Epic_Noir_White.7z">
@@ -236,6 +244,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>UnBurn</i></small><br/>
         <small>Super effective</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/GBMini_by_Kitsuvi.7z">
@@ -244,8 +254,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Kitsuvi</i></small><br/>
         <small>null</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/GREEN.7z">
@@ -262,6 +270,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>metallic77</i></small><br/>
         <small>a spruce os modern theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Grape.7z">
@@ -270,8 +280,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Remix by XanXic</i></small><br/>
         <small>Remix of Avacado by Sky_Walker to be Grape themed</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/HelloMiyoo.7z">
@@ -288,6 +296,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>HeyDW</i></small><br/>
         <small>Blue</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/HeyDWs_Green.7z">
@@ -296,8 +306,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>HeyDW</i></small><br/>
         <small>Green</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/HeyDWs_KirbyOS.7z">
@@ -314,6 +322,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>HeyDW</i></small><br/>
         <small>HeyDW's PlayStation 20th Anniversary</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/HeyDWs_Red.7z">
@@ -322,8 +332,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>HeyDW</i></small><br/>
         <small>Red</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/HeyDWs_Yellow.7z">
@@ -340,6 +348,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>ruidacosta</i></small><br/>
         <small>null</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/KantOS.7z">
@@ -348,8 +358,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Chris Cromer</i></small><br/>
         <small>A KantOS port heavily tweaked for spruce</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Kirby_by_Sheezie.7z">
@@ -366,6 +374,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>AlpineShowTime</i></small><br/>
         <small>A Loveletter to LittleBigPlanet fans who happen to play on these fun little devices! If you fall under that niche</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/M.7z">
@@ -374,8 +384,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>Black/White/Grey minimal theme inspired by Miyoo logo</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/MAGAZINE.7z">
@@ -392,6 +400,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>@chrisbastion</i></small><br/>
         <small>Minimal</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/MIYOO.7z">
@@ -400,8 +410,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Miyoo</i></small><br/>
         <small>Miyoo Stock Theme</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/MiNook_Mini_by_Deepslackerjazz.7z">
@@ -418,6 +426,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Jasminum C</i></small><br/>
         <small>A lovely pink theme for Rilakkuma lovers</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/MiyooCarPlay_by_RobyRosa.7z">
@@ -426,8 +436,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>RobyRosa</i></small><br/>
         <small>Apple Car Style</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Mucha_Miyoo_by_LamiaLazuli.7z">
@@ -444,6 +452,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Amdy</i></small><br/>
         <small>Minimalist theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/NanoSwitch_by_Amdy.7z">
@@ -452,8 +462,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Amdy</i></small><br/>
         <small>Minimalist theme</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Neumorphism-Black_by_bantam.7z">
@@ -470,6 +478,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>bantam</i></small><br/>
         <small>null</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Notebook_Kawaii_by_UnBurn.7z">
@@ -478,8 +488,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>UnBurn</i></small><br/>
         <small>Kawaii theme in a notebook</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/ONION_PS_Blue_by_hanessh4.7z">
@@ -496,6 +504,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>hanessh4</i></small><br/>
         <small>PS Inspired Onion Theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/OTB.7z">
@@ -504,8 +514,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/PIXEL_SPRUCE.7z">
@@ -522,6 +530,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Nicolas C</i></small><br/>
         <small>Modern looking theme with PS elements, in a dark palette.</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Pad_Snow_Dark_by_toski.7z">
@@ -530,8 +540,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>toski</i></small><br/>
         <small></small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Pico-8.7z">
@@ -548,6 +556,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/RETRO_TV.7z">
@@ -556,8 +566,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/SLABS_V2.7z">
@@ -574,6 +582,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/SLANTED_V2.7z">
@@ -582,8 +592,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/SLANTED.7z">
@@ -600,6 +608,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>tenlevels</i></small><br/>
         <small>spruce theme for a30</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/STRIPS.7z">
@@ -608,8 +618,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>rdwilliamson</i></small><br/>
         <small>Theme for Spruce OS</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Samurai.7z">
@@ -626,6 +634,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>LeonardoDaPinchy</i></small><br/>
         <small>A StarFox64 Theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/TMNT_by_RealDan.7z">
@@ -634,8 +644,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>RealDan</i></small><br/>
         <small>TMNT theme inspired by art from Hyperstone Heist.</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/TechDweeb_by_TechDweeb.7z">
@@ -652,6 +660,8 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>Original Onion theme by NaraMakesGames, adapted for spruce by CraigN aka CruxisMithos</i></small><br/>
         <small>Zelda ToTK inspired theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Wiiyoo_by_UnBurn.7z">
@@ -660,8 +670,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>UnBurn</i></small><br/>
         <small>Wii would like to play with Miyoo</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/YoRHa_by_Deepslackerjazz.7z">
