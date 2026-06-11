@@ -1,0 +1,69 @@
+{
+    "showBottomBar": true,
+    "name": "RETRO VERT",
+    "author": "rdwilliamson",
+    "description": "Theme for Spruce OS",
+    "batteryPercentage": {
+        "color": "#b7a789",
+        "font": "Roboto-Regular.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#b7a789"
+    },
+    "hint": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "#b7a789"
+    },
+    "currentpage": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#b7a789"
+    },
+    "total": {
+        "font": "Roboto-Regular.ttf",
+        "size": 22,
+        "color": "#b79089"
+    },
+    "grid": {
+        "font": "Roboto-Regular.ttf",
+        "grid1x4": 25,
+        "grid3x4": 18,
+        "color": "#7C6F64",
+        "selectedcolor": "#d4b06c"
+    },
+    "list": {
+        "font": "Roboto-Regular.ttf",
+        "size": 24,
+        "color": "#b7a789",
+        "selectedcolor": "#d4b06c"    
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 20,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "systemSelectShowTextGridMode": false,
+    "systemSelectViewType": "GRID",
+    "gameSystemSelectColCount": 1,
+    "gameSystemSelectRowCount": 1,
+    "systemSelectFullScreenGridTextOverlay": false,
+    "mainMenuViewType": "GRID",
+    "mainMenuColCount": 1,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "mainMenuShowTextGridMode": false,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectGridResizeType": "FIT",
+    "carouselGameSelectSidesHangOff": false,
+    "skipMainMenu": true,
+    "mergeMainMenuAndGameMenu": true,
+    "showExtrasInSystemSelectMenu": true,
+    "collectionsEnabled": true,
+    "settingsEnabled": false,
+    "appsEnabled": false
+}
