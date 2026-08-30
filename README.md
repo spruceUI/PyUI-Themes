@@ -672,12 +672,22 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         </td>
 <td align="center" valign="top" width="33.33%">
         <br/>
+        <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/The_Brick_Theme.7z">
+        <img title="The Brick Theme" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/The%20Brick%20Theme/preview.png" /><br/>
+        <b>The Brick Theme</b></a><br/>
+        <small><i>not Lonko, that's for sure</i></small><br/>
+        <small>a meme theme</small><br/>
+        </td>
+<td align="center" valign="top" width="33.33%">
+        <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/ToTK.7z">
         <img title="ToTK" width="200px" src="https://raw.githubusercontent.com/spruceUI/PyUI-Themes/main/Themes/ToTK/preview.png" /><br/>
         <b>ToTK</b></a><br/>
         <small><i>Original Onion theme by NaraMakesGames, adapted for spruce by CraigN aka CruxisMithos</i></small><br/>
         <small>Zelda ToTK inspired theme</small><br/>
         </td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/Wiiyoo_by_UnBurn.7z">
@@ -686,8 +696,6 @@ Themes here are in .7z format; you can place them into your `/Themes` folder and
         <small><i>UnBurn</i></small><br/>
         <small>Wii would like to play with Miyoo</small><br/>
         </td>
-</tr>
-<tr>
 <td align="center" valign="top" width="33.33%">
         <br/>
         <a href="https://github.com/spruceUI/PyUI-Themes/releases/download/1/YoRHa_by_Deepslackerjazz.7z">
