@@ -1,0 +1,64 @@
+{
+    "showBottomBar": true,
+    "name": "The Brick Theme",
+    "author": "not Lonko, that's for sure",
+    "description": "a meme theme",
+    "batteryPercentage": {
+        "color": "#B03C3C",
+        "font": "nunwen.ttf",
+        "size": 18
+    },
+    "title": {
+        "font": "nunwen.ttf",
+        "size": 25,
+        "color": "#B03C3C"
+    },
+    "hint": {
+        "font": "nunwen.ttf",
+        "size": 25,
+        "color": "#B03C3C"
+    },
+    "currentpage": {
+        "font": "nunwen.ttf",
+        "size": 22,
+        "color": "#B03C3C"
+    },
+    "total": {
+        "font": "nunwen.ttf",
+        "size": 22,
+        "color": "#841800"
+    },
+    "grid": {
+        "font": "nunwen.ttf",
+        "grid1x4": 25,
+        "grid3x4": 20,
+        "color": "#B03C3C",
+        "selectedcolor": "#841800"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+        "size": 24,
+        "color": "#B03C3C",
+        "selectedcolor": "#B03C3C"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": false,
+    "topBarInitialXOffset": 60,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "displayVolumeNumbers": true,
+    "skipMainMenu": true,
+    "gameSelectionViewType": "ICON_AND_DESC",
+    "gameSelectGridResizeType": "FIT",
+    "screensaver": {
+        "bgColor": "#000000"
+    },
+    "gameSelectShowSelectedBgGridMode": true,
+    "systemSelectShowSelectedBgGridMode": false,
+    "gameSelectShowTextGridMode": true,
+    "showExtrasInSystemSelectMenu": false,
+    "systemSelectViewType": "GRID",
+    "systemSelectShowTextGridMode": true,
+    "systemSelectGridResizeType": "FIT"
+}
