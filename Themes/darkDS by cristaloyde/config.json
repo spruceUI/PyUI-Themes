@@ -1,7 +1,7 @@
 {
     "showBottomBar": true,
-    "name": "darkDS-v1.0",
-    "description": "A DS-like dark menu for SpruceOS. Partially based on muDS Dark by WhoIsQuote for muOS. Icons partially based on Pico-8 theme by 369px. Others icons adapted from Nintendo DS menu (spriters-resource.com) and Nintendo Badge Arcade.",
+    "name": "darkDS-v1.5",
+    "description": "A DS-like dark menu for SpruceOS. Designed for 640x480 and 720x480 screens, but compatible with every resolution. Partially based on muDS Dark by WhoIsQuote for muOS. Icons partially based on Pico-8 theme by 369px. Others icons adapted from Nintendo DS menu (spriters-resource.com) and Nintendo Badge Arcade.",
     "author": "cristaloyde",
     "generatedNotice": "Also helped by spruce-theme-builder. Learn more at https://github.com/nco-design/",
     "batteryPercentage": {
@@ -43,8 +43,8 @@
         "selectedcolor": "#FFFFFF"
     },
     "recentsEnabled": true,
-    "topBarInitialXOffset": 14,
-    "setTopBarTextToGameSelection": true,
+    "topBarInitialXOffset": 28,
+    "setTopBarTextToGameSelection": false,
     "fullScreenGridGameMenuResizeType": "FIT",
     "mainMenuTitle": "Main Menu",
     "skipMainMenu": false,
@@ -70,7 +70,7 @@
     "mainMenuColCount": 5,
     "mainMenuGridWrapAroundSingleRow": true,
     "gridMainMenuImgWidth": 0,
-    "gameSelectionViewType": "TEXT_ONLY",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
     "topBarFontSize": 43,
     "batteryPercentFontSize": 33,
     "listFontSize": 28,
@@ -112,5 +112,7 @@
             }
         ],
         "bgColor": "#000000"
-    }
+    },
+    "gameSwitcherResizeType": "ZOOM",
+    "collectionsEnabled": false
 }
