@@ -1,0 +1,74 @@
+{
+    "name": "Cyberspace",
+    "author": "Welblade",
+    "description": "A cyberpunk fantasy theme",
+    "batteryPercentage": {
+        "color": "#b6b6b6",
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 34
+    },
+    "title": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 40,
+        "color": "#19ffd6"
+    },
+    "hint": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 34,
+        "color": "#b6b6b6"
+    },
+    "currentpage": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 34,
+        "color": "#19ffd6"
+    },
+    "total": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 34,
+        "color": "#00967b"
+    },
+    "grid": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "grid1x4": 34,
+        "grid3x4": 34,
+        "color": "#00967b",
+        "selectedcolor": "#19ffd6"
+    },
+    "list": {
+        "font": "TerminessNerdFont-Regular.ttf",
+        "size": 34,
+        "color": "#b6b6b6",
+        "selectedcolor": "#19ffd6"
+    },
+    "topBarFontSize": 40,
+    "screensaver": {
+        "bgImage": "/mnt/SDCARD/themes/cyberspace/screensaver.png",
+        "screensaverTimeoutSec": 70,
+        "widgets": [
+            {
+                "type": "clock",
+                "x": 0.5,
+                "y": 0.15,
+                "fontSize": 120,
+                "color": "#19ffd6",
+                "font": "TerminessNerdFontMono-Bold.ttf",
+                "enabled": true
+            },
+            {
+                "type": "date",
+                "x": 0.5,
+                "y": 0.3,
+                "fontSize": 24,
+                "color": "#b6b6b6"
+            },
+            {
+                "type": "battery",
+                "x": 0.5,
+                "y": 0.5,
+                "fontSize": 48,
+                "color": "#c7ef00",
+                "style": "bar"
+            }
+        ]
+    }
+}
