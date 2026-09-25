@@ -1,9 +1,10 @@
-# MIT License
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
-Copyright (c) 2024 369px & spruceUI
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this collection of files and associated documentation (the "Guide"), to deal in this without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this Template and Guide, and to permit persons to whom this Template and Guide are furnished to do so, subject to the following conditions:
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Materials.
-
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
