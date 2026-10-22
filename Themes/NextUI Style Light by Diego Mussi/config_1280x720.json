@@ -1,0 +1,105 @@
+{
+    "name": "NextUI Style Light",
+    "author": "Diego Mussi",
+    "description": "Light (inverted) NextUI Style. Any accent colour via the Accent Color app.",
+    "batteryPercentage": {
+        "color": "#1A1A1C",
+        "font": "nextui.ttf",
+        "size": 27
+    },
+    "title": {
+        "font": "nextui.ttf",
+        "size": 36,
+        "color": "#1A1A1C"
+    },
+    "hint": {
+        "font": "nextui.ttf",
+        "size": 27,
+        "color": "#1A1A1C"
+    },
+    "currentpage": {
+        "font": "nextui.ttf",
+        "size": 30,
+        "color": "#1A1A1C"
+    },
+    "total": {
+        "font": "nextui.ttf",
+        "size": 30,
+        "color": "#7A7A7E"
+    },
+    "grid": {
+        "font": "nextui.ttf",
+        "grid1x4": 36,
+        "grid3x4": 27,
+        "color": "#7A7A7E",
+        "selectedcolor": "#1A1A1C"
+    },
+    "list": {
+        "font": "nextui.ttf",
+        "size": 42,
+        "color": "#1A1A1C",
+        "selectedcolor": "#FFFFFF"
+    },
+    "descListFontSize": 36,
+    "descriptionFontSize": 27,
+    "messageFontSize": 36,
+    "batteryPercentFontSize": 27,
+    "skipMainMenu": true,
+    "showExtrasInSystemSelectMenu": true,
+    "mainMenuViewType": "TEXT_ONLY",
+    "systemSelectViewType": "TEXT_AND_IMAGE",
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "textAndImageListViewMode": "TEXT_LEFT_IMAGE_RIGHT",
+    "listGameSelectImgWidth": 375,
+    "listGameSelectImgHeight": 450,
+    "listSystemSelectImgWidth": 375,
+    "listSystemSelectImgHeight": 450,
+    "appMenuViewType": "TEXT_ONLY",
+    "useTextForLineHeight": false,
+    "scrollRomSelectionText": false,
+    "recentsEnabled": true,
+    "favoritesEnabled": true,
+    "collectionsEnabled": true,
+    "appsEnabled": true,
+    "settingsEnabled": true,
+    "showTopBarText": false,
+    "showClock": false,
+    "displayBatteryIcon": true,
+    "displayBatteryPercent": false,
+    "displayVolumeNumbers": false,
+    "showBottomBarButtons": false,
+    "topBarInitialXOffset": 30,
+    "setTopBarTextToGameSelection": false,
+    "bindOverMiyooTheme": true,
+    "mainMenuTitle": "",
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "screensaver": {
+        "bgColor": "#F4F4F5",
+        "screensaverTimeoutSec": 60,
+        "widgets": [
+            {
+                "type": "clock",
+                "x": 0.5,
+                "y": 0.42,
+                "fontSize": 123,
+                "color": "#1A1A1C",
+                "enabled": true,
+                "font": "nextui.ttf"
+            },
+            {
+                "type": "date",
+                "x": 0.5,
+                "y": 0.58,
+                "fontSize": 33,
+                "color": "#7A7A7E"
+            },
+            {
+                "type": "battery",
+                "x": 0.5,
+                "y": 0.7,
+                "fontSize": 27,
+                "color": "#1A1A1C"
+            }
+        ]
+    }
+}
