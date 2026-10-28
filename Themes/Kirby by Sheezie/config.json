@@ -36,5 +36,6 @@
         "size": 24,
         "color": "#3d354d"
     },
-    "displayVolumeNumbers": true
+    "displayVolumeNumbers": true,
+    "useTextForLineHeight": false
 }

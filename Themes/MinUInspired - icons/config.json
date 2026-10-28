@@ -49,5 +49,6 @@
     "skipMainMenu": false,
     "mergeMainMenuAndGameMenu": false,
     "showExtrasInSystemSelectMenu": false,
-    "gameSelectionViewType": "TEXT_ONLY"
+    "gameSelectionViewType": "TEXT_ONLY",
+    "useTextForLineHeight": false
 }

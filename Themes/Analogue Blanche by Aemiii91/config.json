@@ -37,5 +37,6 @@
         "color": "#000000"
     },
     "multiRowGridTextYOffset": -8,
-    "displayVolumeNumbers": true
+    "displayVolumeNumbers": true,
+    "useTextForLineHeight": false
 }

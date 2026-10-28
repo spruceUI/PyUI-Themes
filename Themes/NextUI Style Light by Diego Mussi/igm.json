@@ -1,0 +1,27 @@
+{
+    "name": "NextUI Style Light",
+    "colors": {
+        "dim_bg": "#F4F4F5E6",
+        "panel_bg": "#00000000",
+        "selection": "#1A1A1CFF",
+        "accent": "#1A1A1CFF",
+        "title_line": "#1A1A1C33",
+        "text": "#1A1A1CFF",
+        "text_selected": "#FFFFFFFF",
+        "text_title": "#7A7A7EFF",
+        "text_shadow": "#00000000",
+        "battery": "#1A1A1CFF"
+    },
+    "layout": {
+        "accent_bar": false,
+        "shadow": false,
+        "separator_h_px": 0,
+        "title_h_pct": 0.0
+    },
+    "font": {
+        "path": "nextui.ttf"
+    },
+    "text": {
+        "title": ""
+    }
+}

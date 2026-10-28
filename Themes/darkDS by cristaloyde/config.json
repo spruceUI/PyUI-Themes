@@ -1,6 +1,6 @@
 {
     "showBottomBar": true,
-    "name": "darkDS-v2.2",
+    "name": "darkDS-v2.5",
     "description": "A DS-like dark menu for SpruceOS. Designed for 640x480 and 720x480 screens, but compatible with every resolution. Partially based on muDS Dark by WhoIsQuote for muOS. Icons partially based on Pico-8 theme by 369px. Others icons adapted from Nintendo DS menu and Nintendo Badge Arcade (spriters-resource.com).",
     "author": "cristaloyde",
     "generatedNotice": "Also helped by spruce-theme-builder. Learn more at https://github.com/nco-design/",
@@ -43,7 +43,7 @@
         "selectedcolor": "#FFFFFF"
     },
     "recentsEnabled": true,
-    "topBarInitialXOffset": 24,
+    "topBarInitialXOffset": 25,
     "setTopBarTextToGameSelection": false,
     "fullScreenGridGameMenuResizeType": "FIT",
     "mainMenuTitle": "Main Menu",
@@ -56,12 +56,12 @@
     "gameSystemSelectColCount": 5,
     "gameSystemSelectRowCount": 2,
     "systemSelectGridWrapAroundSingleRow": false,
-    "systemSelectViewType": "GRID",
+    "systemSelectViewType": "ICON_AND_DESC",
     "carouselSystemUsePercentageMode": true,
     "carouselSystemSelectShrinkFurtherAway": false,
     "carouselSystemSelectPrimaryImgWidth": 20,
     "carouselSystemXPad": 13,
-    "singleRowGridTextYOffset": 13,
+    "singleRowGridTextYOffset": 0,
     "displayBatteryIcon": true,
     "displayBatteryPercent": true,
     "mainMenuShowTextGridMode": false,
@@ -71,8 +71,8 @@
     "mainMenuGridWrapAroundSingleRow": true,
     "gridMainMenuImgWidth": 0,
     "gameSelectionViewType": "TEXT_AND_IMAGE",
-    "topBarFontSize": 42,
-    "batteryPercentFontSize": 31,
+    "topBarFontSize": 40,
+    "batteryPercentFontSize": 32,
     "listFontSize": 28,
     "messageFontSize": 28,
     "descListFontSize": 28,
@@ -81,15 +81,15 @@
     "indexSelectedFontSize": 32,
     "indexTotalSize": 32,
     "displayVolumeNumbers": true,
-    "showBottomBarButtons": false,
+    "showBottomBarButtons": true,
     "showClock": true,
-    "renderTopAndBottomBarLast": true,
+    "renderTopAndBottomBarLast": false,
     "screensaver": {
         "widgets": [
             {
                 "type": "clock",
                 "x": 0.5,
-                "y": 0.25,
+                "y": 0.27,
                 "fontSize": 120,
                 "color": "#FFFFFF",
                 "font": "nunwen.ttf",
@@ -98,22 +98,38 @@
             {
                 "type": "date",
                 "x": 0.5,
-                "y": 0.43,
+                "y": 0.45,
                 "fontSize": 48,
                 "color": "#AAAAAA"
             },
             {
                 "type": "battery",
                 "x": 0.5,
-                "y": 0.84,
+                "y": 0.8,
                 "fontSize": 64,
                 "color": "#88CC88",
                 "style": "blocks"
             }
         ],
-        "bgColor": "#000000"
+        "bgColor": "#000000",
+        "bgImage": "",
+        "screensaverTimeoutSec": 90,
+        "lowPowerWhileIdle": true
     },
-    "gameSwitcherResizeType": "ZOOM",
+    "gameSwitcherResizeType": "FIT",
     "collectionsEnabled": false,
-    "gridMultiRowFontSize": 25
+    "gridMultiRowFontSize": 25,
+    "gridSystemSelectImgWidth": 140,
+    "gridMultiRowImageYOffset": 0,
+    "gridMultiRowSelBgResizePadWidth": 20,
+    "gridMultiRowSelBgResizePadHeight": 20,
+    "gameSwitcherViewType": "CAROUSEL",
+    "gameSwitcherUseVerticalCarousel": false,
+    "textAndImageListViewMode": "TEXT_LEFT_IMAGE_RIGHT",
+    "useTextForLineHeight": false,
+    "carouselGameSelectPrimaryImgWidth": 60,
+    "gameSelectCarouselColCount": 3,
+    "carouselGameSelectSidesHangOff": true,
+    "gameSelectUseVerticalCarousel": false,
+    "listSystemSelectImgWidth": 320
 }

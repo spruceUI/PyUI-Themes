@@ -29,7 +29,7 @@ jobs:
       - name: Install 7-Zip
         run: |
           sudo apt-get update
-          sudo apt-get install -y p7zip-full
+          sudo apt-get install -y p7zip-full python3-fonttools
 
       - name: Package Modified Themes
         run: |
@@ -64,6 +64,7 @@ jobs:
               echo "Debug: Theme directory exists: 'Themes/$theme'"
               # Remove existing archive if it exists
               rm -f "PackedThemes/${theme}.7z"
+              python3 .github/scripts/patch_theme_fonts.py "Themes/$theme"
 
               # Create temporary directory structure
               mkdir -p "temp/mnt/SDCARD/Themes"
@@ -78,6 +79,16 @@ jobs:
               echo "Debug: Theme directory does not exist: 'Themes/$theme'"
             fi
           done
+
+      - name: Commit patched fonts
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add Themes
+          git diff --cached --quiet && exit 0
+          git commit -m "Add missing symbols to theme fonts"
+          git pull --rebase --autostash
+          git push
 
       - name: Upload to Release
         env:

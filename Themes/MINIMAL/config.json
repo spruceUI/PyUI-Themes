@@ -51,5 +51,6 @@
     "listFontSize": 24,
     "mainMenuColCount": 4,
     "includeIndexText": false,
-    "showBottomBarButtons": false
+    "showBottomBarButtons": false,
+    "useTextForLineHeight": false
 }
