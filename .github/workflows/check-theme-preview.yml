@@ -1,0 +1,28 @@
+name: Check Theme Preview
+
+on:
+  pull_request:
+    paths:
+      - 'Themes/**'
+
+jobs:
+  check-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Require preview.png or preview.gif in each changed theme
+        run: |
+          git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- Themes \
+            | cut -d/ -f2 | sort -u | while IFS= read -r theme; do
+              dir="Themes/$theme"
+              [ -d "$dir" ] || continue
+              [ "$theme" = "Template" ] && continue
+              if [ ! -f "$dir/preview.png" ] && [ ! -f "$dir/preview.gif" ]; then
+                echo "::error::$dir has no preview.png or preview.gif"
+                echo 1 > missing
+              fi
+            done
+          [ ! -f missing ]
