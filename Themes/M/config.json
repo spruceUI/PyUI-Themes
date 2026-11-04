@@ -1,7 +1,7 @@
 {
     "name": "M",
     "author": "tenlevels",
-    "description": "Black/White/Grey minimal theme inspired by Miyoo logo",
+    "description": "Minimal black and white theme",
     "batteryPercentage": {
         "visible": false,
         "color": "#848484",
@@ -40,7 +40,6 @@
         "size": 24,
         "color": "#dddddd",
         "selectedcolor": "#dddddd"
-
     },
     "recentsEnabled": false,
     "topBarInitialXOffset": 85,

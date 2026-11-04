@@ -1,0 +1,57 @@
+{
+    "name": "M",
+    "author": "tenlevels",
+    "description": "Minimal black and white theme",
+    "batteryPercentage": {
+        "visible": false,
+        "color": "#848484",
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 20,
+        "textAlign": "right",
+        "offsetX": 0,
+        "offsetY": 0,
+        "fixed": true
+    },
+    "title": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 25,
+        "color": "#848484"
+    },
+    "hint": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 25,
+        "color": "#dddddd"
+    },
+    "currentpage": {
+        "color": "#dddddd"
+    },
+    "total": {
+        "color": "#848484"
+    },
+    "grid": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "grid1x4": 25,
+        "grid3x4": 20,
+        "color": "#646464",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "Gravity-Light.otf",
+        "size": 27,
+        "color": "#dddddd",
+        "selectedcolor": "#dddddd"
+    },
+    "recentsEnabled": false,
+    "topBarInitialXOffset": 95,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false,
+    "showBottomBar": true,
+    "mainMenuColCount": 4,
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "gameSystemSelectColCount": 4,
+    "gameSystemSelectRowCount": 3
+}
