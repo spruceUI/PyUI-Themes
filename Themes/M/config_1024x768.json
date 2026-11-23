@@ -1,0 +1,53 @@
+{
+    "name": "M",
+    "author": "tenlevels",
+    "description": "Minimal black and white theme",
+    "batteryPercentage": {
+        "visible": false,
+        "color": "#848484",
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 28,
+        "textAlign": "right",
+        "offsetX": 0,
+        "offsetY": 0,
+        "fixed": true
+    },
+    "title": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 35,
+        "color": "#848484"
+    },
+    "hint": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 35,
+        "color": "#dddddd"
+    },
+    "currentpage": {
+        "color": "#dddddd"
+    },
+    "total": {
+        "color": "#848484"
+    },
+    "grid": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "grid1x4": 35,
+        "grid3x4": 28,
+        "color": "#646464",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "Gravity-Light.otf",
+        "size": 38,
+        "color": "#dddddd",
+        "selectedcolor": "#dddddd"
+    },
+    "recentsEnabled": false,
+    "topBarInitialXOffset": 136,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false,
+    "mainMenuColCount": 4
+}

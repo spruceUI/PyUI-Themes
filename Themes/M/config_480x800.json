@@ -1,0 +1,77 @@
+{
+    "name": "M",
+    "author": "tenlevels",
+    "description": "Minimal black and white theme",
+    "batteryPercentage": {
+        "visible": false,
+        "color": "#848484",
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 18,
+        "textAlign": "right",
+        "offsetX": 0,
+        "offsetY": 0,
+        "fixed": true
+    },
+    "title": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 22,
+        "color": "#848484"
+    },
+    "hint": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "size": 22,
+        "color": "#dddddd"
+    },
+    "currentpage": {
+        "color": "#dddddd"
+    },
+    "total": {
+        "color": "#848484"
+    },
+    "grid": {
+        "font": "Gravity-Regular-CAPS.otf",
+        "grid1x4": 22,
+        "grid3x4": 18,
+        "color": "#646464",
+        "selectedcolor": "#ffffff"
+    },
+    "list": {
+        "font": "Gravity-Light.otf",
+        "size": 24,
+        "color": "#dddddd",
+        "selectedcolor": "#dddddd"
+    },
+    "recentsEnabled": true,
+    "topBarInitialXOffset": 78,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "skipMainMenu": false,
+    "mergeMainMenuAndGameMenu": false,
+    "showExtrasInSystemSelectMenu": false,
+    "showBottomBar": true,
+    "mainMenuColCount": 2,
+    "mainMenuRowCount": 3,
+    "collectionsEnabled": true,
+    "gameSelectionViewType": "TEXT_AND_IMAGE",
+    "gameSystemSelectColCount": 3,
+    "gameSystemSelectRowCount": 3,
+    "listFontSize": 22,
+    "messageFontSize": 22,
+    "descListFontSize": 22,
+    "batteryPercentFontSize": 22,
+    "topBarFontSize": 22,
+    "gridMultiRowFontSize": 22,
+    "indexTotalSize": 22,
+    "indexSelectedFontSize": 22,
+    "gridSingleRowFontSize": 22,
+    "displayBatteryIcon": true,
+    "showBottomBarButtons": false,
+    "showClock": true,
+    "multiRowGridTextYOffset": -16,
+    "gridMultiRowImageYOffset": 12,
+    "gridBgOffsetToImageOffset": true,
+    "textAndImageListViewMode": "TEXT_BELOW_IMAGE",
+    "imgPercentTopBottomView": 35,
+    "scrollRomSelectionText": false
+}
