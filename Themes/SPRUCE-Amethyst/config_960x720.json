@@ -1,0 +1,80 @@
+{
+    "name": "SPRUCE-Amethyst",
+    "author": "brenonsc",
+    "description": "Dark, purple-accented take on the spruce theme by tenlevels",
+    "batteryPercentage": {
+        "color": "#CCCCCC",
+        "font": "nunwen.ttf",
+        "size": 27
+    },
+    "title": {
+        "font": "nunwen.ttf",
+        "size": 37,
+        "color": "#CCCCCC"
+    },
+    "hint": {
+        "font": "nunwen.ttf",
+        "size": 37,
+        "color": "#CCCCCC"
+    },
+    "currentpage": {
+        "font": "nunwen.ttf",
+        "size": 33,
+        "color": "#CCCCCC"
+    },
+    "total": {
+        "font": "nunwen.ttf",
+        "size": 33,
+        "color": "#9636D9"
+    },
+    "grid": {
+        "font": "nunwen.ttf",
+        "grid1x4": 37,
+        "grid3x4": 27,
+        "color": "#6E6E78",
+        "selectedcolor": "#FFFFFF"
+    },
+    "list": {
+        "font": "nunwen.ttf",
+        "size": 36,
+        "color": "#CCCCCC",
+        "selectedcolor": "#FFFFFF"
+    },
+    "bindOverMiyooTheme": true,
+    "recentsEnabled": false,
+    "mainMenuColCount": 4,
+    "topBarInitialXOffset": 90,
+    "setTopBarTextToGameSelection": true,
+    "fullScreenGridGameMenuResizeType": "FIT",
+    "mainMenuTitle": "",
+    "displayVolumeNumbers": true,
+    "screensaver": {
+        "bgColor": "#000000",
+        "screensaverTimeoutSec": 60,
+        "widgets": [
+            {
+                "type": "clock",
+                "x": 0.5,
+                "y": 0.37,
+                "fontSize": 82,
+                "color": "#FFFFFF",
+                "enabled": true,
+                "font": "nunwen.ttf"
+            },
+            {
+                "type": "date",
+                "x": 0.5,
+                "y": 0.55,
+                "fontSize": 24,
+                "color": "#CCCCCC"
+            },
+            {
+                "type": "battery",
+                "x": 0.5,
+                "y": 0.7,
+                "fontSize": 20,
+                "color": "#65169C"
+            }
+        ]
+    }
+}
