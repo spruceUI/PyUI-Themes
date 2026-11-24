@@ -36,7 +36,7 @@
     },
     "list": {
         "font": "nextui.ttf",
-        "size": 19,
+        "size": 16,
         "color": "#FFFFFF",
         "selectedcolor": "#000000"
     },
