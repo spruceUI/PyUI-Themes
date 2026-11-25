@@ -48,6 +48,11 @@ jobs:
               mkdir -p "temp/mnt/SDCARD/Themes"
               cp -r "Themes/$folder" "temp/mnt/SDCARD/Themes/"
 
+              # OFL condition 2: the attribution and full licence travel with
+              # every copy of a font we grafted in this pack.
+              mkdir -p "temp/mnt/SDCARD/Themes/$folder/Licenses/fonts"
+              cp Licenses/fonts/promptfont.txt "temp/mnt/SDCARD/Themes/$folder/Licenses/fonts/"
+
               # Create fresh 7z archive — cd into temp so paths start at mnt/SDCARD/
               (cd temp && 7z a -r "${WORKSPACE}/PackedThemes/${folder}.7z" mnt)
 
